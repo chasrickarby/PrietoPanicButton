@@ -171,25 +171,7 @@ class SettingsViewController: UIViewController, AddItemViewControllerDelegate {
         }
         
         self.dismissViewControllerAnimated(true, completion: nil);
-        
-        /*
-        switch(codeSelector.selectedSegmentIndex){
-        case 0:
-            println(yellowNames)
-            println(yellowNumbers)
-            break
-        case 1:
-            println(orangeNames)
-            println(orangeNumbers)
-            break
-        case 2:
-            println(redNames)
-            println(redNumbers)
-            break
-        default:
-            break
-        }
-*/
+
     }
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {

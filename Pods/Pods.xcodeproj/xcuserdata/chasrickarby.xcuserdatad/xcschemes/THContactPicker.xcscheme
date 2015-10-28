@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4B806061AA75378416B8CC4A'
-               BlueprintName = 'DTModelStorage'
+               BlueprintIdentifier = 'C15AAB9EDCE53C2DBBCA8ECE'
+               BlueprintName = 'THContactPicker'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libDTModelStorage.a'>
+               BuildableName = 'libTHContactPicker.a'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

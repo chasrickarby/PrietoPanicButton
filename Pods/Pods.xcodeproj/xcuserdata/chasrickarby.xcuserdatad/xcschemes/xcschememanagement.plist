@@ -24,25 +24,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>THContactPicker.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>61C8BA60C9331E46A7DB8F9187332ED9</key>
+		<key>2336E2C3EF04D879F47AD66F59389CC3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>65058ADE339CF5B2E6E3494B5C2177A4</key>
+		<key>69BF9C954B82732CC113C2769C9CC76E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CF64F3029EBFBD16D5DB663361F45D9E</key>
+		<key>888E6B40A0821F5D9594FE26F544832F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E90216055E3D9D2B44205162457D01B5</key>
+		<key>DF3BE1AC4791832A85A1123AE8271141</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FB633392917FFF710114FBDBB4A3B936</key>
 		<dict>
 			<key>primary</key>
 			<true/>

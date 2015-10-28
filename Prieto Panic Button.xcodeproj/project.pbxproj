@@ -18,7 +18,7 @@
 		10AEC7F71B567832000E09D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10AEC7F51B567832000E09D8 /* LaunchScreen.xib */; };
 		10AEC8031B567834000E09D8 /* Prieto_Panic_ButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AEC8021B567834000E09D8 /* Prieto_Panic_ButtonTests.swift */; };
 		10CF1A741B6976980011107A /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CF1A731B6976980011107A /* ContactsViewController.swift */; };
-		82449B6DF5AEA28DB9427A9A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8FDCDD333957B2BC3D0402 /* libPods.a */; settings = {ATTRIBUTES = (Weak, ); }; };
+		82449B6DF5AEA28DB9427A9A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8FDCDD333957B2BC3D0402 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +163,7 @@
 				10AEC7E41B567832000E09D8 /* Frameworks */,
 				10AEC7E51B567832000E09D8 /* Resources */,
 				FA4555F3A9F238C751EA8472 /* Copy Pods Resources */,
+				8BFD493AB9E1080688AE504A /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,6 +265,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8BFD493AB9E1080688AE504A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FA4555F3A9F238C751EA8472 /* Copy Pods Resources */ = {

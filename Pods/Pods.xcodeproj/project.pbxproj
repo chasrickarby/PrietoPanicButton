@@ -7,540 +7,563 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0179CD8F3D4CAF2CCF95C7BB7B35AFE8 /* DTTableViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 067C90622DDFA14E98CB7D0E0D577F84 /* DTTableViewManager-dummy.m */; };
-		0E08FA616038E242E4980DC4E506BECF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6B525BD55B37EB7FB493F51372ACD9 /* UIKit.framework */; };
-		109A35B2F2FD68F450364B9A5EFB091B /* DTModelStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = B77A827267317E9EC301E57F40B4D4C5 /* DTModelStorage.h */; };
-		127D1FC4C9EF926F3F5B025067F46DAA /* DTBaseStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 303EF30FBEF11047E8040156B7297782 /* DTBaseStorage.m */; };
-		1E35702326A2494923519169D911AADB /* APContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E6985C1A3419BB9FD2A3FF0032D7785 /* APContact.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		20586B9AE0ED0941EDD9C3B1ABE23A09 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17373F98AC820C6D83CC704E987875C2 /* AddressBook.framework */; };
-		225DE0993130267406E33060A9A7997A /* UIView+DTLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8B143D789C6E4A22922FF589AC2581 /* UIView+DTLoading.m */; };
-		2484B887BFAD1C081716936C759504AA /* DTModelTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B163CEF2FD57F774FE8E07671F4386A /* DTModelTransfer.h */; };
-		26265ABED926742E16A22B350D2616E6 /* DTTableViewFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 7654FB11C8CEAFBF2B63845401AD9858 /* DTTableViewFactory.h */; };
-		2DEA4E2BBAF90BD86C47142A289585E9 /* DTTableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B7F9E0521729417D798C6A178D463395 /* DTTableViewManager.h */; };
-		31EEEF5C9F5090D1C70C987EEE10256D /* DTStorageUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 623CB1F27EB0BBB955FE9DEFDF92BBA2 /* DTStorageUpdate.h */; };
-		32A7EBD5BB4120061111376A815CF673 /* APSocialProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 088BBD3DAF6F9E93930CD4D002E113FE /* APSocialProfile.h */; };
-		33B4C6599C41CE4940B5CEC032554091 /* DTStorageUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57AA6D0FB62B8FD5FF9C5D87C0D968BF /* DTStorageUpdate.m */; };
-		3A1DDF52251A127493A968F3F946C7EC /* DTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3FD63F66668552B26D68081625CF16 /* DTTableViewController.m */; };
-		3EFFEEF0C824E17B94F7CD0CCDA84F9F /* DTSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B81D882A611145FB4276C5028A400DB /* DTSectionModel.h */; };
-		447F7B26082469A485F895EF0D84F480 /* APContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B106633F28207B9C577E83C1190F339 /* APContact.h */; };
-		516E2056AE96E8F41165817619397A72 /* DTModelStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38A5E9020A9D96504D0793DE645066CC /* DTModelStorage-dummy.m */; };
-		52D95FBCD59342CF9A4E0ABA11FB0B4A /* DTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACF214AB4AE3225EDC116FAAEFE29EA /* DTTableViewCell.m */; };
-		56F565CDAA1274A35838C07D44F6FD4B /* DTMemoryStorage_DTTableViewManagerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 44CA9179D0B3BA2DB0EE6B6A779F14DD /* DTMemoryStorage_DTTableViewManagerAdditions.h */; };
-		60928A43F3E88F7F717086E1BC005A48 /* DTCoreDataStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 45214E29A503064A50CDA01E6F494B2D /* DTCoreDataStorage.h */; };
-		65586476AD1147981B0D2C09B2E0CDE7 /* APAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 75832591B0719B8515F34A1E431BFF34 /* APAddressBook.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		67DF1E3EDDBAEA90061AECF445B2F42F /* APAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 538D658E176E8624CA196530684BCBF8 /* APAddress.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		68179B2CA52C2A7148F2E4E976547899 /* DTTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 944CDAC6FDAB7FA69F8B99FADC15C497 /* DTTableViewCell.h */; };
-		6EA32090691A81136802382657FC79DF /* DTBaseStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = ECAA765D13AE4ABE89004E1B2A434ACE /* DTBaseStorage.h */; };
-		714E2C540359B894375F34947955A82A /* APAddressBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F93D7511161A19E44D0F644332E194 /* APAddressBook-dummy.m */; };
-		74CA55EDD270E18509E49085AD3EE1CA /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 152DC103631BAEED908CE42A44B755D6 /* Pods-dummy.m */; };
-		7DB02CC8560E47EF17A893B3D704C932 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984F8E6BD70AEFF464ED54D2114EAACC /* Foundation.framework */; };
-		87CF6BB63184669DB32297B951EC49F2 /* APAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D39BCB5CACAAD9D9A58E97E33BBC3FF /* APAddress.h */; };
-		8901446C2AF1D0056EA4735879D0F1E7 /* DTMemoryStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = F28A9F183B254DB3A16B7A6D5F16D5AC /* DTMemoryStorage.m */; };
-		92C3722BF590905DD619079CA569CF3A /* DTMemoryStorage+UpdateWithoutAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3B9FEC23649157B8907DFEDDB7062C /* DTMemoryStorage+UpdateWithoutAnimations.m */; };
-		9765FB1A70BC4A84CC798BDF4769B932 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984F8E6BD70AEFF464ED54D2114EAACC /* Foundation.framework */; };
-		9A173E33B26A3FDE6B7CA69B61ACBFF8 /* DTStorageProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = EDD13CED6D9F79434A48033A4D5D4481 /* DTStorageProtocol.h */; };
-		9EBE3EE182E617555BF888B22755DB66 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C515843FDD2FD9216462B414398C626 /* CoreData.framework */; };
-		9EFE0151DDF885988053411A69AE4320 /* APSocialProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9C0330609915B470A649DAF441489B /* APSocialProfile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		9F09F86CB52C3F271369561F1A6300A8 /* DTStorageUpdating.h in Headers */ = {isa = PBXBuildFile; fileRef = 51C6F03A3028B0EBB89FC0EE5C16226D /* DTStorageUpdating.h */; };
-		9FFBA41BE00F48C1A45C41972B4F4932 /* APPhoneWithLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A3E06CCAB71D11D648C11DA454FA41E /* APPhoneWithLabel.h */; };
-		A78137E6980B6E8600F9602DBC31802A /* DTMemoryStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B4CBEA65FA24DA51F479103AC3A773D /* DTMemoryStorage.h */; };
-		A7C4069ACD64A56461B90AD853D046D2 /* DTMemoryStorage_DTTableViewManagerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BF144801B8EBD5282E602005FD46144F /* DTMemoryStorage_DTTableViewManagerAdditions.m */; };
-		B0E269E27BE1572D47C8DCC03BA0DC42 /* DTSectionModel+SectionHeadersFooters.m in Sources */ = {isa = PBXBuildFile; fileRef = A758DFF09B5455DDA7A352F8D8743DE5 /* DTSectionModel+SectionHeadersFooters.m */; };
-		B334A029AF0CC15B9AE7A2F50AF63485 /* DTSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 70C8683DF54A340EF9F1864024E13F3F /* DTSection.h */; };
-		BFE8761558EF1343832EE31A4DADDA84 /* DTTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5149535A2E1ECF1E80CE60260A23F989 /* DTTableViewController.h */; };
-		C0AD93357B3F087A539F59AB88E41B2E /* DTMemoryStorage+UpdateWithoutAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = 3707E2B94B1CAFDEAE5C0320E5FE46B8 /* DTMemoryStorage+UpdateWithoutAnimations.h */; };
-		C107B7593B2BCE6267CB21A1F6EF07CC /* DTTableViewControllerEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C689E2D9EA161ACF0F595C06B72C1B /* DTTableViewControllerEvents.h */; };
-		C11B892DEFD9AC0B463DE6F7EF32F55B /* DTSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FB7C91A04444562BBC5F0073A5F7ED1 /* DTSectionModel.m */; };
-		C912A196B569966AEC94396537CEE491 /* DTRuntimeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = FEF1EA79F8912D6B3B867EA48617506F /* DTRuntimeHelper.h */; };
-		CE74947490D9AEF251AE6B93BA9298B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984F8E6BD70AEFF464ED54D2114EAACC /* Foundation.framework */; };
-		D79A1E3FE39A166D05A9C1D7AD8DE6AE /* APAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B82270FFD6299785E86654686D9727B /* APAddressBook.h */; };
-		D94465F51174E20030CE85BB132A9151 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F6B525BD55B37EB7FB493F51372ACD9 /* UIKit.framework */; };
-		E664D18B740D211AA8119B12C4C41E98 /* DTSectionModel+SectionHeadersFooters.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D47CBBD65D183A3E878E60F15F9FB47 /* DTSectionModel+SectionHeadersFooters.h */; };
-		E91AC355016DFB8717B02C6083B13858 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 984F8E6BD70AEFF464ED54D2114EAACC /* Foundation.framework */; };
-		EA5B56A4B7C99342DA1E71D6A7392212 /* DTCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D53CF977A57FF1845F9511253DB4629 /* DTCoreDataStorage.m */; };
-		F0422BCFB77151E1347EA8B0BB317095 /* UIView+DTLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 4117087639C3F4B15BF1D66CCB3EC461 /* UIView+DTLoading.h */; };
-		F0AC50B97714E1BD0C2A23526311F72F /* APPhoneWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57E0D3A6DB102354B5A0F7652A1AD436 /* APPhoneWithLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F0E41380972296AE46E075D72545BD26 /* APTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B73C1CE1590D3DD7842EF41B93B266 /* APTypes.h */; };
-		FA76D693A211C0B111BCF558D26AC95E /* DTTableViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C3F8D79E551527B8AFD4FB8DFB226D /* DTTableViewFactory.m */; };
-		FE0BA3C983A4368D9CB32A51F4137AC2 /* DTRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 926C90A57991B10637C92288F39DE548 /* DTRuntimeHelper.m */; };
+		02186D06C47D9B9A9E329107343273FD /* DTModelStorage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4C3972F9EDDB56340784EAB41746BE /* DTModelStorage-dummy.m */; };
+		04ECF487BB47A51467ACE5EB3471A1CC /* DTMemoryStorage+UpdateWithoutAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 625380667AFA4E55D8B689B774C2218B /* DTMemoryStorage+UpdateWithoutAnimations.m */; };
+		07EB7E6649A00A36986DE29FC4EDE4AF /* APAddressBook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45BE4416DAB3F28992743C211C86ED7F /* APAddressBook-dummy.m */; };
+		0BAD40FEB059B2C121FF4EF0C47D074B /* DTModelTransfer.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6FABD9450F6E78ABCC5CBABAA97755 /* DTModelTransfer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CEEF09BFD3F781E343E01942878F5C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57CAC45817D282811165022520DF775 /* CoreGraphics.framework */; };
+		132DF76651F94CFF96D12921417C6E23 /* APAddressBook.h in Headers */ = {isa = PBXBuildFile; fileRef = D669DE501E7C29734EC1003C0508A31F /* APAddressBook.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A5852A9B6511505D95C2F135147414F /* DTBaseStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = D57C6D8F684A160A81059DD995D7423B /* DTBaseStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B92E5790FDFCFFEA87F64F1737B230E /* APContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A121A02DEE521B4E945E40F4266C4DA /* APContact.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1E7B9EA7F1B4D22B52040D1F6A8DF320 /* THContactBubble.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B2C6053D98B47E9E66CF1C23D447E3F /* THContactBubble.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		250BCB75953C352C1665FDE2D31B6D6D /* DTStorageUpdate.h in Headers */ = {isa = PBXBuildFile; fileRef = 178D52D900E45E58D1B173629BA4E1A3 /* DTStorageUpdate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28294DE8FADFEA409407E1875533766E /* DTRuntimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EEFF64D8EFD3E8E370C871DD599B3E2 /* DTRuntimeHelper.m */; };
+		294A49443EC34D3B844630081033C4BD /* UIView+DTLoading.m in Sources */ = {isa = PBXBuildFile; fileRef = C6857E2685863BC55AF4A1104C75F48C /* UIView+DTLoading.m */; };
+		2BBCDC21CEADB29B666E1630E1645F68 /* DTMemoryStorage_DTTableViewManagerAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FD121DCD6294C7E1A8AD35B0E75C9A2C /* DTMemoryStorage_DTTableViewManagerAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C13ADB54D0DD68A49131180A3673BC7 /* APContact.h in Headers */ = {isa = PBXBuildFile; fileRef = D58827E92868E00B4B93F2415A3E34AA /* APContact.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D8DD3D5AA494FB892697CAC96F1AA3E /* DTTableViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 311DE68C60D028D6C4DDD045B688FE72 /* DTTableViewManager-dummy.m */; };
+		2E455EB70F1324ECD175A0F2028A104B /* DTStorageProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AE241A80D4BC0F50FADC4B57EF47C4F /* DTStorageProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30284E6D016C9A63D3F4E1D6C71ABAFC /* APSocialProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = F47AC5B6129A4AE1CA37FD6135B25343 /* APSocialProfile.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		344CFB14EB087426BFC967A13A43D730 /* DTMemoryStorage+UpdateWithoutAnimations.h in Headers */ = {isa = PBXBuildFile; fileRef = BC5B21C338073D18286FF3D8B9B8D973 /* DTMemoryStorage+UpdateWithoutAnimations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BBF0B45E459C9043C19E1D5E8A964DB /* DTMemoryStorage_DTTableViewManagerAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 699DB04A7A0EC50551A63BBA7F2E7238 /* DTMemoryStorage_DTTableViewManagerAdditions.m */; };
+		3D10A523FF0CAB824E789114FD23105F /* THBubbleStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 19C0EDC6769C6FC09F73E1F4DC842155 /* THBubbleStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D924A762F49AD7BCE23D78F4B9E5A5A /* DTMemoryStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 56F4AE01186A2B907FA7B39464FD943E /* DTMemoryStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41097FB5A2ACBEAE5BD02EA674116AF2 /* DTTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 50879B6D764E35DF8B78F354B286C815 /* DTTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A513376D5836728850906396E6F92E6 /* APAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A8EE31EA7A14CD4C5C3AF66405FCE6 /* APAddressBook.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4C572822805BF7B0F311CD6688F2477A /* DTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3153D301A39727F96141CA5D0F266B2 /* DTTableViewCell.m */; };
+		4C84496A635A086099289A8D292A1F5D /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7F7BDCFF7DA1462BE50128F4A7821DA /* AddressBook.framework */; };
+		4CC558DBAEF78B7F842F22036CDA6AF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D61FC207C386E9C7B62FFBDAF7445CB /* Foundation.framework */; };
+		4EB48421579DFB564EBBA7A4CB729EC7 /* DTTableViewFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 51FD7A6F845A6DD814C005CF924BB354 /* DTTableViewFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FFC755DA3C0A609D826F17E87175137 /* DTStorageUpdate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC943710DA90F090AD6852F2455687E /* DTStorageUpdate.m */; };
+		522A0C2B42D80E169A265A3D3DDB9099 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D61FC207C386E9C7B62FFBDAF7445CB /* Foundation.framework */; };
+		557E318CCCD842B05457575DF9039153 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACC90C560F33DF35712A2FE1A7B8FF2 /* CoreData.framework */; };
+		5ECBE5DA7653CC204FBFB89D8833A4B4 /* THContactTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = C68AA79F209AB061C28F9A2B70C960B0 /* THContactTextField.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5F0CD41F3E70E121093B8B0D662076DA /* DTTableViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 19D54B1396391373583B7C5FF8BCC05C /* DTTableViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6732219C8A1885ED302961191ED658F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D61FC207C386E9C7B62FFBDAF7445CB /* Foundation.framework */; };
+		6AF088270885BCC233C6AFD7C7D1BDB8 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */; };
+		6C76C2F1686377006D39581A100BCE55 /* DTRuntimeHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = BC752EF29D4D30297D05153A34BE4739 /* DTRuntimeHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CC6EE0ACA88242F10A43B0F78136241 /* DTMemoryStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E91EED6426A93EA01BE42D00565989D /* DTMemoryStorage.m */; };
+		701445F946F5D918E9342E3B4D31DA16 /* DTSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7E86567F992F73AE114063BA358DE5 /* DTSectionModel.m */; };
+		75007B29B96980B1D54A7B782AEA2615 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0025BC8261F5A9B42735FA7108B6433 /* UIKit.framework */; };
+		83A9E985FEB2D9DC8EBD7418181DC43F /* APAddress.h in Headers */ = {isa = PBXBuildFile; fileRef = EEF3D69931B7DB88F694417E7843E15A /* APAddress.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8616D3CA810CE898BC8175580A6F9777 /* THContactPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB5DB48583DADAFE82E0497F4EC6002 /* THContactPicker-dummy.m */; };
+		8F1B7553FF8382889200AC57B519C342 /* DTCoreDataStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = DBF2F3128624AC2988CFB12E697B7728 /* DTCoreDataStorage.m */; };
+		910A378F744D1DF31FE99DF6F11828D6 /* THContactTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = F15517373541BDA3A5899B479638C1DA /* THContactTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		927DA0F709A079B4A561A43F270430E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0025BC8261F5A9B42735FA7108B6433 /* UIKit.framework */; };
+		9297ECB241D2D098A406D9C1D17845C5 /* APPhoneWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7604333F87EC7FAB0A2AFA656A25568C /* APPhoneWithLabel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A9260BC5DDC65FF2D6B5EE62DDEA5491 /* DTSectionModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C74E3E3CB603ABC8B0498448F822BB9 /* DTSectionModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB095F6FE9952F293ED4ECF68481D3B2 /* DTStorageUpdating.h in Headers */ = {isa = PBXBuildFile; fileRef = D6BA5B3D0053BEB1A29AB8E30E8F37E1 /* DTStorageUpdating.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADAFF4D0AC6B9539BD9DDA2B09A371E2 /* UIView+DTLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 05010A244FDDDA623F4500E6AC3F997F /* UIView+DTLoading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1E259747404E2F845C680B363A1197F /* DTTableViewControllerEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = 959E30A0B648DF58B821E1296D0C93C7 /* DTTableViewControllerEvents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC0173DD5250CF793C607A635D0F23A9 /* DTTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3C27E068B7DC7CD3E256167E7F78D4 /* DTTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BED345B156AFE8C94246FC5454CB86F7 /* APSocialProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 390C7219004D64601CC6DBA8C34A328F /* APSocialProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3CE955D06BC30E41EF06539C5BD801D /* DTModelStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = DD92A93A8ECD92A7C8E91D22B8B3FD1B /* DTModelStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB333C53278397F3959A546BCB8AB55C /* DTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84777C6264C06D493110ADFEB5AA0B76 /* DTTableViewController.m */; };
+		CB832D8AFE919BD66671332BF503A2DF /* DTSectionModel+SectionHeadersFooters.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E4205A7CD4DD077610AFB4287EA7A86 /* DTSectionModel+SectionHeadersFooters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD62BE857C0D340945BD14E2E206F8E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D61FC207C386E9C7B62FFBDAF7445CB /* Foundation.framework */; };
+		D43155BF1FD7F5FE7C07A5FF0EF674B9 /* APPhoneWithLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 792D3E907465BD9CA53EC51C0EB633C8 /* APPhoneWithLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D48BFD61CA115E3DB3429AB2DB14665D /* APTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FE958F5EBB5C6FA4C604575EC641CB2 /* APTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D625FB86A81D93644DF55F05D8804EDE /* APAddress.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DD455171EF0997BB561A5056D8DB88B /* APAddress.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D6F56E4140EA7F0441018ADA9D0AEA75 /* THContactBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 3383F1AEF3D2861B06B932D2D2046664 /* THContactBubble.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DC08839CF0049D600FEF49C5AAF4F2A8 /* DTSectionModel+SectionHeadersFooters.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A5EA750946D497B2DB8DDA8862F58B /* DTSectionModel+SectionHeadersFooters.m */; };
+		E5239922764641B0D7E9C3C59290D4C6 /* DTCoreDataStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = DF44761EABEDFCA4EEBA1250B85867F6 /* DTCoreDataStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7E999C88FADCF39A2E8AEC7BF67445C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D61FC207C386E9C7B62FFBDAF7445CB /* Foundation.framework */; };
+		E9517AD561DAB5025A4E0C825D1F7D20 /* DTBaseStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = F62EE98A3573CE28F83B1F501A8E8BC4 /* DTBaseStorage.m */; };
+		E9DB8B4CE516E062AFC77118616DB618 /* THContactPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D95D60E8B35D1F48BC59C8D820B2E61 /* THContactPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE9CD7607DA6A20811B622967918FBDB /* THBubbleStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F5A17A22E52FC6552FB2FE396B1D90 /* THBubbleStyle.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F6D98319654563DDBE1B42BBBA07A269 /* DTTableViewFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1066A45ABEA780DEBA2167E5C686DC /* DTTableViewFactory.m */; };
+		F7369A6B5B951F404D8C2E91864BC5FB /* DTSection.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D915B995A6DEE564356A3B11A0939 /* DTSection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F82245A4099B277132C4DA678DA86DC7 /* THContactPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1156297212ACFA853AB0B8BE8B1AA44 /* THContactPickerView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D463985E27EFDD4FF1BB47234CA5D7D /* PBXContainerItemProxy */ = {
+		689EF652D67FAE128C2795E20BD46460 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E90216055E3D9D2B44205162457D01B5;
+			remoteGlobalIDString = 2336E2C3EF04D879F47AD66F59389CC3;
 			remoteInfo = DTModelStorage;
 		};
-		310F60F7E7B268AAA7E1D48A6684D746 /* PBXContainerItemProxy */ = {
+		69EC17751B25A2C89AFD2DD1365D51B0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CF64F3029EBFBD16D5DB663361F45D9E;
-			remoteInfo = DTTableViewManager;
-		};
-		7DADDC362E1AC2CD350A4EB6B2C9F4CB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 65058ADE339CF5B2E6E3494B5C2177A4;
+			remoteGlobalIDString = 69BF9C954B82732CC113C2769C9CC76E;
 			remoteInfo = APAddressBook;
 		};
-		9B2853DEE7F37EA202AC2474AA9DDBAA /* PBXContainerItemProxy */ = {
+		91DDA5EA4A2D3ED56958443E2DB268EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E90216055E3D9D2B44205162457D01B5;
+			remoteGlobalIDString = 888E6B40A0821F5D9594FE26F544832F;
+			remoteInfo = THContactPicker;
+		};
+		BE7931CE26F73F28662FBDD8926D1367 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2336E2C3EF04D879F47AD66F59389CC3;
 			remoteInfo = DTModelStorage;
+		};
+		D3A29F935288B6C1EA3FBC70E158DA51 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF3BE1AC4791832A85A1123AE8271141;
+			remoteInfo = DTTableViewManager;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		067C90622DDFA14E98CB7D0E0D577F84 /* DTTableViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTTableViewManager-dummy.m"; sourceTree = "<group>"; };
-		0704DA4A9D5A9EA1A11B12A8ECDE51C9 /* APAddressBook-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "APAddressBook-Private.xcconfig"; sourceTree = "<group>"; };
-		088BBD3DAF6F9E93930CD4D002E113FE /* APSocialProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APSocialProfile.h; path = Pod/Core/APSocialProfile.h; sourceTree = "<group>"; };
-		0ACF214AB4AE3225EDC116FAAEFE29EA /* DTTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTableViewCell.m; path = DTTableViewManager/DTTableViewCell.m; sourceTree = "<group>"; };
-		0B4CBEA65FA24DA51F479103AC3A773D /* DTMemoryStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTMemoryStorage.h; path = DTModelStorage/Memory/DTMemoryStorage.h; sourceTree = "<group>"; };
-		0C8B143D789C6E4A22922FF589AC2581 /* UIView+DTLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DTLoading.m"; path = "DTTableViewManager/UIView+DTLoading.m"; sourceTree = "<group>"; };
-		0D47CBBD65D183A3E878E60F15F9FB47 /* DTSectionModel+SectionHeadersFooters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DTSectionModel+SectionHeadersFooters.h"; path = "DTTableViewManager/DTSectionModel+SectionHeadersFooters.h"; sourceTree = "<group>"; };
-		0DE95F7AFC20F5B480631FA02C666885 /* APAddressBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APAddressBook-prefix.pch"; sourceTree = "<group>"; };
-		152DC103631BAEED908CE42A44B755D6 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
-		15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
-		17373F98AC820C6D83CC704E987875C2 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
-		23C3F8D79E551527B8AFD4FB8DFB226D /* DTTableViewFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTableViewFactory.m; path = DTTableViewManager/DTTableViewFactory.m; sourceTree = "<group>"; };
-		23F93D7511161A19E44D0F644332E194 /* APAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APAddressBook-dummy.m"; sourceTree = "<group>"; };
-		2B106633F28207B9C577E83C1190F339 /* APContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APContact.h; path = Pod/Core/APContact.h; sourceTree = "<group>"; };
-		303EF30FBEF11047E8040156B7297782 /* DTBaseStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTBaseStorage.m; path = DTModelStorage/Core/DTBaseStorage.m; sourceTree = "<group>"; };
-		343992EF58F67B6C11D5A2716F7A272D /* DTModelStorage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTModelStorage.xcconfig; sourceTree = "<group>"; };
-		36A157B3AD60CA84EAF222ABE1183C12 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
-		3707E2B94B1CAFDEAE5C0320E5FE46B8 /* DTMemoryStorage+UpdateWithoutAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DTMemoryStorage+UpdateWithoutAnimations.h"; path = "DTModelStorage/Utilities/DTMemoryStorage+UpdateWithoutAnimations.h"; sourceTree = "<group>"; };
-		38A5E9020A9D96504D0793DE645066CC /* DTModelStorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTModelStorage-dummy.m"; sourceTree = "<group>"; };
-		3E6985C1A3419BB9FD2A3FF0032D7785 /* APContact.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APContact.m; path = Pod/Core/APContact.m; sourceTree = "<group>"; };
-		4117087639C3F4B15BF1D66CCB3EC461 /* UIView+DTLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DTLoading.h"; path = "DTTableViewManager/UIView+DTLoading.h"; sourceTree = "<group>"; };
-		44CA9179D0B3BA2DB0EE6B6A779F14DD /* DTMemoryStorage_DTTableViewManagerAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTMemoryStorage_DTTableViewManagerAdditions.h; path = DTTableViewManager/DTMemoryStorage_DTTableViewManagerAdditions.h; sourceTree = "<group>"; };
-		45214E29A503064A50CDA01E6F494B2D /* DTCoreDataStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTCoreDataStorage.h; path = DTModelStorage/CoreData/DTCoreDataStorage.h; sourceTree = "<group>"; };
-		4A3E06CCAB71D11D648C11DA454FA41E /* APPhoneWithLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APPhoneWithLabel.h; path = Pod/Core/APPhoneWithLabel.h; sourceTree = "<group>"; };
-		4A741DB3CC5BCDE879378C38D71A32B3 /* DTModelStorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTModelStorage-prefix.pch"; sourceTree = "<group>"; };
-		4C515843FDD2FD9216462B414398C626 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
-		4F6B525BD55B37EB7FB493F51372ACD9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		4FB7C91A04444562BBC5F0073A5F7ED1 /* DTSectionModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTSectionModel.m; path = DTModelStorage/Memory/DTSectionModel.m; sourceTree = "<group>"; };
-		5149535A2E1ECF1E80CE60260A23F989 /* DTTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTableViewController.h; path = DTTableViewManager/DTTableViewController.h; sourceTree = "<group>"; };
-		51C6F03A3028B0EBB89FC0EE5C16226D /* DTStorageUpdating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTStorageUpdating.h; path = DTModelStorage/Core/DTStorageUpdating.h; sourceTree = "<group>"; };
-		538D658E176E8624CA196530684BCBF8 /* APAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddress.m; path = Pod/Core/APAddress.m; sourceTree = "<group>"; };
-		572E565759C479DCA72304DC48C4F54F /* libDTModelStorage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDTModelStorage.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		57AA6D0FB62B8FD5FF9C5D87C0D968BF /* DTStorageUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTStorageUpdate.m; path = DTModelStorage/Core/DTStorageUpdate.m; sourceTree = "<group>"; };
-		57E0D3A6DB102354B5A0F7652A1AD436 /* APPhoneWithLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APPhoneWithLabel.m; path = Pod/Core/APPhoneWithLabel.m; sourceTree = "<group>"; };
-		5FB1B155231FD59861179BD191130557 /* libAPAddressBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAPAddressBook.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		623CB1F27EB0BBB955FE9DEFDF92BBA2 /* DTStorageUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTStorageUpdate.h; path = DTModelStorage/Core/DTStorageUpdate.h; sourceTree = "<group>"; };
-		641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
-		6B82270FFD6299785E86654686D9727B /* APAddressBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBook.h; path = Pod/Core/APAddressBook.h; sourceTree = "<group>"; };
-		70C8683DF54A340EF9F1864024E13F3F /* DTSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTSection.h; path = DTModelStorage/Core/DTSection.h; sourceTree = "<group>"; };
-		7209E69751E901B97CF51D3C07E23461 /* APAddressBook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APAddressBook.xcconfig; sourceTree = "<group>"; };
-		75832591B0719B8515F34A1E431BFF34 /* APAddressBook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddressBook.m; path = Pod/Core/APAddressBook.m; sourceTree = "<group>"; };
-		7654FB11C8CEAFBF2B63845401AD9858 /* DTTableViewFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTableViewFactory.h; path = DTTableViewManager/DTTableViewFactory.h; sourceTree = "<group>"; };
-		777C3F1FADDBA301744617A24FACB993 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
-		86B73C1CE1590D3DD7842EF41B93B266 /* APTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APTypes.h; path = Pod/Core/APTypes.h; sourceTree = "<group>"; };
-		87C689E2D9EA161ACF0F595C06B72C1B /* DTTableViewControllerEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTableViewControllerEvents.h; path = DTTableViewManager/DTTableViewControllerEvents.h; sourceTree = "<group>"; };
-		8B163CEF2FD57F774FE8E07671F4386A /* DTModelTransfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTModelTransfer.h; path = DTModelStorage/Utilities/DTModelTransfer.h; sourceTree = "<group>"; };
-		8B81D882A611145FB4276C5028A400DB /* DTSectionModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTSectionModel.h; path = DTModelStorage/Memory/DTSectionModel.h; sourceTree = "<group>"; };
-		926C90A57991B10637C92288F39DE548 /* DTRuntimeHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTRuntimeHelper.m; path = DTModelStorage/Utilities/DTRuntimeHelper.m; sourceTree = "<group>"; };
-		944CDAC6FDAB7FA69F8B99FADC15C497 /* DTTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTableViewCell.h; path = DTTableViewManager/DTTableViewCell.h; sourceTree = "<group>"; };
-		98151B0E3EA7EF436CD4AA6073765C40 /* DTTableViewManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTTableViewManager-prefix.pch"; sourceTree = "<group>"; };
-		984F8E6BD70AEFF464ED54D2114EAACC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9C3B9FEC23649157B8907DFEDDB7062C /* DTMemoryStorage+UpdateWithoutAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DTMemoryStorage+UpdateWithoutAnimations.m"; path = "DTModelStorage/Utilities/DTMemoryStorage+UpdateWithoutAnimations.m"; sourceTree = "<group>"; };
-		9D39BCB5CACAAD9D9A58E97E33BBC3FF /* APAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddress.h; path = Pod/Core/APAddress.h; sourceTree = "<group>"; };
-		9D53CF977A57FF1845F9511253DB4629 /* DTCoreDataStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTCoreDataStorage.m; path = DTModelStorage/CoreData/DTCoreDataStorage.m; sourceTree = "<group>"; };
-		A758DFF09B5455DDA7A352F8D8743DE5 /* DTSectionModel+SectionHeadersFooters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DTSectionModel+SectionHeadersFooters.m"; path = "DTTableViewManager/DTSectionModel+SectionHeadersFooters.m"; sourceTree = "<group>"; };
-		B77A827267317E9EC301E57F40B4D4C5 /* DTModelStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTModelStorage.h; path = DTModelStorage/DTModelStorage.h; sourceTree = "<group>"; };
-		B7F9E0521729417D798C6A178D463395 /* DTTableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTableViewManager.h; path = DTTableViewManager/DTTableViewManager.h; sourceTree = "<group>"; };
+		05010A244FDDDA623F4500E6AC3F997F /* UIView+DTLoading.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+DTLoading.h"; path = "DTTableViewManager/UIView+DTLoading.h"; sourceTree = "<group>"; };
+		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		14F79A8145996F5300A1F0B6C0581C18 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1657A0CA33198251909A873BF235E1E2 /* APAddressBook-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "APAddressBook-prefix.pch"; sourceTree = "<group>"; };
+		178D52D900E45E58D1B173629BA4E1A3 /* DTStorageUpdate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTStorageUpdate.h; path = DTModelStorage/Core/DTStorageUpdate.h; sourceTree = "<group>"; };
+		18BC686AC01D808AE3296C34B101C10F /* libAPAddressBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAPAddressBook.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C0EDC6769C6FC09F73E1F4DC842155 /* THBubbleStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = THBubbleStyle.h; path = Classes/THBubbleStyle.h; sourceTree = "<group>"; };
+		19D54B1396391373583B7C5FF8BCC05C /* DTTableViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTableViewManager.h; path = DTTableViewManager/DTTableViewManager.h; sourceTree = "<group>"; };
+		1AE241A80D4BC0F50FADC4B57EF47C4F /* DTStorageProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTStorageProtocol.h; path = DTModelStorage/Core/DTStorageProtocol.h; sourceTree = "<group>"; };
+		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		2B2C6053D98B47E9E66CF1C23D447E3F /* THContactBubble.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = THContactBubble.h; path = Classes/THContactBubble.h; sourceTree = "<group>"; };
+		2D61FC207C386E9C7B62FFBDAF7445CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		311DE68C60D028D6C4DDD045B688FE72 /* DTTableViewManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTTableViewManager-dummy.m"; sourceTree = "<group>"; };
+		3383F1AEF3D2861B06B932D2D2046664 /* THContactBubble.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = THContactBubble.m; path = Classes/THContactBubble.m; sourceTree = "<group>"; };
+		37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		390C7219004D64601CC6DBA8C34A328F /* APSocialProfile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APSocialProfile.h; path = Pod/Core/APSocialProfile.h; sourceTree = "<group>"; };
+		3A9CE2567E291A9EC2A401461532D7DC /* libTHContactPicker.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTHContactPicker.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E91EED6426A93EA01BE42D00565989D /* DTMemoryStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTMemoryStorage.m; path = DTModelStorage/Memory/DTMemoryStorage.m; sourceTree = "<group>"; };
+		41501BF6224329ABDC09AC5541C34264 /* DTTableViewManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTTableViewManager.xcconfig; sourceTree = "<group>"; };
+		45A8EE31EA7A14CD4C5C3AF66405FCE6 /* APAddressBook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddressBook.m; path = Pod/Core/APAddressBook.m; sourceTree = "<group>"; };
+		45BE4416DAB3F28992743C211C86ED7F /* APAddressBook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "APAddressBook-dummy.m"; sourceTree = "<group>"; };
+		464D776896A9C1A069DF24ACC44929B3 /* DTModelStorage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTModelStorage.xcconfig; sourceTree = "<group>"; };
+		4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		50879B6D764E35DF8B78F354B286C815 /* DTTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTableViewController.h; path = DTTableViewManager/DTTableViewController.h; sourceTree = "<group>"; };
+		51FD7A6F845A6DD814C005CF924BB354 /* DTTableViewFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTableViewFactory.h; path = DTTableViewManager/DTTableViewFactory.h; sourceTree = "<group>"; };
+		56F4AE01186A2B907FA7B39464FD943E /* DTMemoryStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTMemoryStorage.h; path = DTModelStorage/Memory/DTMemoryStorage.h; sourceTree = "<group>"; };
+		570D915B995A6DEE564356A3B11A0939 /* DTSection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTSection.h; path = DTModelStorage/Core/DTSection.h; sourceTree = "<group>"; };
+		59FF8506A8E7C6BAFC307F6DBE7059E4 /* libDTTableViewManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDTTableViewManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E4205A7CD4DD077610AFB4287EA7A86 /* DTSectionModel+SectionHeadersFooters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DTSectionModel+SectionHeadersFooters.h"; path = "DTTableViewManager/DTSectionModel+SectionHeadersFooters.h"; sourceTree = "<group>"; };
+		5FE958F5EBB5C6FA4C604575EC641CB2 /* APTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APTypes.h; path = Pod/Core/APTypes.h; sourceTree = "<group>"; };
+		607FBEE7E5C539B95B07E6B1A54763F2 /* libDTModelStorage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDTModelStorage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		625380667AFA4E55D8B689B774C2218B /* DTMemoryStorage+UpdateWithoutAnimations.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DTMemoryStorage+UpdateWithoutAnimations.m"; path = "DTModelStorage/Utilities/DTMemoryStorage+UpdateWithoutAnimations.m"; sourceTree = "<group>"; };
+		6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		699DB04A7A0EC50551A63BBA7F2E7238 /* DTMemoryStorage_DTTableViewManagerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTMemoryStorage_DTTableViewManagerAdditions.m; path = DTTableViewManager/DTMemoryStorage_DTTableViewManagerAdditions.m; sourceTree = "<group>"; };
+		6C74E3E3CB603ABC8B0498448F822BB9 /* DTSectionModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTSectionModel.h; path = DTModelStorage/Memory/DTSectionModel.h; sourceTree = "<group>"; };
+		6C97C073B253B6AE40C1B707DD84CB99 /* THContactPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "THContactPicker-prefix.pch"; sourceTree = "<group>"; };
+		6EEFF64D8EFD3E8E370C871DD599B3E2 /* DTRuntimeHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTRuntimeHelper.m; path = DTModelStorage/Utilities/DTRuntimeHelper.m; sourceTree = "<group>"; };
+		7604333F87EC7FAB0A2AFA656A25568C /* APPhoneWithLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APPhoneWithLabel.m; path = Pod/Core/APPhoneWithLabel.m; sourceTree = "<group>"; };
+		792D3E907465BD9CA53EC51C0EB633C8 /* APPhoneWithLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APPhoneWithLabel.h; path = Pod/Core/APPhoneWithLabel.h; sourceTree = "<group>"; };
+		7ACC90C560F33DF35712A2FE1A7B8FF2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		7D95D60E8B35D1F48BC59C8D820B2E61 /* THContactPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = THContactPickerView.h; path = Classes/THContactPickerView.h; sourceTree = "<group>"; };
+		7FC943710DA90F090AD6852F2455687E /* DTStorageUpdate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTStorageUpdate.m; path = DTModelStorage/Core/DTStorageUpdate.m; sourceTree = "<group>"; };
+		84777C6264C06D493110ADFEB5AA0B76 /* DTTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTableViewController.m; path = DTTableViewManager/DTTableViewController.m; sourceTree = "<group>"; };
+		8A121A02DEE521B4E945E40F4266C4DA /* APContact.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APContact.m; path = Pod/Core/APContact.m; sourceTree = "<group>"; };
+		959E30A0B648DF58B821E1296D0C93C7 /* DTTableViewControllerEvents.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTableViewControllerEvents.h; path = DTTableViewManager/DTTableViewControllerEvents.h; sourceTree = "<group>"; };
+		982491470913A27FB73C97F5EB434960 /* APAddressBook.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = APAddressBook.xcconfig; sourceTree = "<group>"; };
+		98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		9B4C3972F9EDDB56340784EAB41746BE /* DTModelStorage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTModelStorage-dummy.m"; sourceTree = "<group>"; };
+		9DD455171EF0997BB561A5056D8DB88B /* APAddress.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APAddress.m; path = Pod/Core/APAddress.m; sourceTree = "<group>"; };
+		A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		A7F7BDCFF7DA1462BE50128F4A7821DA /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/AddressBook.framework; sourceTree = DEVELOPER_DIR; };
+		AE6FABD9450F6E78ABCC5CBABAA97755 /* DTModelTransfer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTModelTransfer.h; path = DTModelStorage/Utilities/DTModelTransfer.h; sourceTree = "<group>"; };
+		AF7E86567F992F73AE114063BA358DE5 /* DTSectionModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTSectionModel.m; path = DTModelStorage/Memory/DTSectionModel.m; sourceTree = "<group>"; };
+		B1156297212ACFA853AB0B8BE8B1AA44 /* THContactPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = THContactPickerView.m; path = Classes/THContactPickerView.m; sourceTree = "<group>"; };
+		BA1066A45ABEA780DEBA2167E5C686DC /* DTTableViewFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTableViewFactory.m; path = DTTableViewManager/DTTableViewFactory.m; sourceTree = "<group>"; };
+		BA3C27E068B7DC7CD3E256167E7F78D4 /* DTTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTTableViewCell.h; path = DTTableViewManager/DTTableViewCell.h; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BF144801B8EBD5282E602005FD46144F /* DTMemoryStorage_DTTableViewManagerAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTMemoryStorage_DTTableViewManagerAdditions.m; path = DTTableViewManager/DTMemoryStorage_DTTableViewManagerAdditions.m; sourceTree = "<group>"; };
-		BF5309B381466019A85EC9D5300BCD17 /* libDTTableViewManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDTTableViewManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
-		C4FF4BCAC2F8D73C1B535601A0932177 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC9C0330609915B470A649DAF441489B /* APSocialProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APSocialProfile.m; path = Pod/Core/APSocialProfile.m; sourceTree = "<group>"; };
-		CDEFA3598C3F270755692F52C38E9C41 /* DTTableViewManager-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DTTableViewManager-Private.xcconfig"; sourceTree = "<group>"; };
-		DA0AADDF18E4A87161AB5B8A3120D9EA /* DTTableViewManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTTableViewManager.xcconfig; sourceTree = "<group>"; };
-		E15AF1779B599FCC39E3D87A46E64410 /* DTModelStorage-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DTModelStorage-Private.xcconfig"; sourceTree = "<group>"; };
-		ECAA765D13AE4ABE89004E1B2A434ACE /* DTBaseStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTBaseStorage.h; path = DTModelStorage/Core/DTBaseStorage.h; sourceTree = "<group>"; };
-		EDD13CED6D9F79434A48033A4D5D4481 /* DTStorageProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTStorageProtocol.h; path = DTModelStorage/Core/DTStorageProtocol.h; sourceTree = "<group>"; };
-		F28A9F183B254DB3A16B7A6D5F16D5AC /* DTMemoryStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTMemoryStorage.m; path = DTModelStorage/Memory/DTMemoryStorage.m; sourceTree = "<group>"; };
-		FEF1EA79F8912D6B3B867EA48617506F /* DTRuntimeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTRuntimeHelper.h; path = DTModelStorage/Utilities/DTRuntimeHelper.h; sourceTree = "<group>"; };
-		FF3FD63F66668552B26D68081625CF16 /* DTTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTableViewController.m; path = DTTableViewManager/DTTableViewController.m; sourceTree = "<group>"; };
+		BC5B21C338073D18286FF3D8B9B8D973 /* DTMemoryStorage+UpdateWithoutAnimations.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DTMemoryStorage+UpdateWithoutAnimations.h"; path = "DTModelStorage/Utilities/DTMemoryStorage+UpdateWithoutAnimations.h"; sourceTree = "<group>"; };
+		BC752EF29D4D30297D05153A34BE4739 /* DTRuntimeHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTRuntimeHelper.h; path = DTModelStorage/Utilities/DTRuntimeHelper.h; sourceTree = "<group>"; };
+		BEB5DB48583DADAFE82E0497F4EC6002 /* THContactPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "THContactPicker-dummy.m"; sourceTree = "<group>"; };
+		C0025BC8261F5A9B42735FA7108B6433 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C57CAC45817D282811165022520DF775 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		C6857E2685863BC55AF4A1104C75F48C /* UIView+DTLoading.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+DTLoading.m"; path = "DTTableViewManager/UIView+DTLoading.m"; sourceTree = "<group>"; };
+		C68AA79F209AB061C28F9A2B70C960B0 /* THContactTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = THContactTextField.m; path = Classes/THContactTextField.m; sourceTree = "<group>"; };
+		D1750DFA50BAE55862388AD612DCA3AB /* DTTableViewManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTTableViewManager-prefix.pch"; sourceTree = "<group>"; };
+		D3153D301A39727F96141CA5D0F266B2 /* DTTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTTableViewCell.m; path = DTTableViewManager/DTTableViewCell.m; sourceTree = "<group>"; };
+		D57C6D8F684A160A81059DD995D7423B /* DTBaseStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTBaseStorage.h; path = DTModelStorage/Core/DTBaseStorage.h; sourceTree = "<group>"; };
+		D58827E92868E00B4B93F2415A3E34AA /* APContact.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APContact.h; path = Pod/Core/APContact.h; sourceTree = "<group>"; };
+		D669DE501E7C29734EC1003C0508A31F /* APAddressBook.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddressBook.h; path = Pod/Core/APAddressBook.h; sourceTree = "<group>"; };
+		D6BA5B3D0053BEB1A29AB8E30E8F37E1 /* DTStorageUpdating.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTStorageUpdating.h; path = DTModelStorage/Core/DTStorageUpdating.h; sourceTree = "<group>"; };
+		DBF2F3128624AC2988CFB12E697B7728 /* DTCoreDataStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTCoreDataStorage.m; path = DTModelStorage/CoreData/DTCoreDataStorage.m; sourceTree = "<group>"; };
+		DD92A93A8ECD92A7C8E91D22B8B3FD1B /* DTModelStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTModelStorage.h; path = DTModelStorage/DTModelStorage.h; sourceTree = "<group>"; };
+		DEAEBFA4F5BAD2DCF9114F406C3E6CB9 /* DTModelStorage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTModelStorage-prefix.pch"; sourceTree = "<group>"; };
+		DF44761EABEDFCA4EEBA1250B85867F6 /* DTCoreDataStorage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTCoreDataStorage.h; path = DTModelStorage/CoreData/DTCoreDataStorage.h; sourceTree = "<group>"; };
+		E0F5A17A22E52FC6552FB2FE396B1D90 /* THBubbleStyle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = THBubbleStyle.m; path = Classes/THBubbleStyle.m; sourceTree = "<group>"; };
+		EEF3D69931B7DB88F694417E7843E15A /* APAddress.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = APAddress.h; path = Pod/Core/APAddress.h; sourceTree = "<group>"; };
+		F15517373541BDA3A5899B479638C1DA /* THContactTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = THContactTextField.h; path = Classes/THContactTextField.h; sourceTree = "<group>"; };
+		F47AC5B6129A4AE1CA37FD6135B25343 /* APSocialProfile.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = APSocialProfile.m; path = Pod/Core/APSocialProfile.m; sourceTree = "<group>"; };
+		F5A5EA750946D497B2DB8DDA8862F58B /* DTSectionModel+SectionHeadersFooters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DTSectionModel+SectionHeadersFooters.m"; path = "DTTableViewManager/DTSectionModel+SectionHeadersFooters.m"; sourceTree = "<group>"; };
+		F62EE98A3573CE28F83B1F501A8E8BC4 /* DTBaseStorage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DTBaseStorage.m; path = DTModelStorage/Core/DTBaseStorage.m; sourceTree = "<group>"; };
+		F7CF8FE4104399FAE2D349D6335A60AC /* THContactPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = THContactPicker.xcconfig; sourceTree = "<group>"; };
+		FD121DCD6294C7E1A8AD35B0E75C9A2C /* DTMemoryStorage_DTTableViewManagerAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTMemoryStorage_DTTableViewManagerAdditions.h; path = DTTableViewManager/DTMemoryStorage_DTTableViewManagerAdditions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		78B6898FEA91F4A40825FC2A2851AE5E /* Frameworks */ = {
+		078D345115FDE7884CC59F586C3BF630 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20586B9AE0ED0941EDD9C3B1ABE23A09 /* AddressBook.framework in Frameworks */,
-				9765FB1A70BC4A84CC798BDF4769B932 /* Foundation.framework in Frameworks */,
+				0CEEF09BFD3F781E343E01942878F5C4 /* CoreGraphics.framework in Frameworks */,
+				6732219C8A1885ED302961191ED658F7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C554CC09CD68A3C35832D7E7FF219212 /* Frameworks */ = {
+		1B20FB3633D39E7D0C9DA319ADDA7D77 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DB02CC8560E47EF17A893B3D704C932 /* Foundation.framework in Frameworks */,
+				E7E999C88FADCF39A2E8AEC7BF67445C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1C564AB6F6578F841CC65700BE2FDC2 /* Frameworks */ = {
+		281A390ADE64874F20C8E390B5834D79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EBE3EE182E617555BF888B22755DB66 /* CoreData.framework in Frameworks */,
-				E91AC355016DFB8717B02C6083B13858 /* Foundation.framework in Frameworks */,
-				0E08FA616038E242E4980DC4E506BECF /* UIKit.framework in Frameworks */,
+				4C84496A635A086099289A8D292A1F5D /* AddressBook.framework in Frameworks */,
+				4CC558DBAEF78B7F842F22036CDA6AF3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE3C012C2F0A9EA39433E4F5CD6EA0A1 /* Frameworks */ = {
+		9051B71D2252808E5D459AD23E57020A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE74947490D9AEF251AE6B93BA9298B6 /* Foundation.framework in Frameworks */,
-				D94465F51174E20030CE85BB132A9151 /* UIKit.framework in Frameworks */,
+				CD62BE857C0D340945BD14E2E206F8E0 /* Foundation.framework in Frameworks */,
+				927DA0F709A079B4A561A43F270430E1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F785EA8F3697A6F4027CA1B19A3878DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557E318CCCD842B05457575DF9039153 /* CoreData.framework in Frameworks */,
+				522A0C2B42D80E169A265A3D3DDB9099 /* Foundation.framework in Frameworks */,
+				75007B29B96980B1D54A7B782AEA2615 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		12762D98667CE0F438AE544DE5E28A0E /* Pods */ = {
+		00755FF621E71EAB382B40A1184ECF00 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				B7BD2250086812CC6F2ED75B99F46BBE /* APAddressBook */,
-				F1004EC075A2649D0792E958021DD29A /* DTModelStorage */,
-				2F78A3BC809D8246A308B21BC010D730 /* DTTableViewManager */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				186B5C380EBCC54048D250B94400E163 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		186B5C380EBCC54048D250B94400E163 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				17373F98AC820C6D83CC704E987875C2 /* AddressBook.framework */,
-				4C515843FDD2FD9216462B414398C626 /* CoreData.framework */,
-				984F8E6BD70AEFF464ED54D2114EAACC /* Foundation.framework */,
-				4F6B525BD55B37EB7FB493F51372ACD9 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		2F78A3BC809D8246A308B21BC010D730 /* DTTableViewManager */ = {
-			isa = PBXGroup;
-			children = (
-				44CA9179D0B3BA2DB0EE6B6A779F14DD /* DTMemoryStorage_DTTableViewManagerAdditions.h */,
-				BF144801B8EBD5282E602005FD46144F /* DTMemoryStorage_DTTableViewManagerAdditions.m */,
-				0D47CBBD65D183A3E878E60F15F9FB47 /* DTSectionModel+SectionHeadersFooters.h */,
-				A758DFF09B5455DDA7A352F8D8743DE5 /* DTSectionModel+SectionHeadersFooters.m */,
-				944CDAC6FDAB7FA69F8B99FADC15C497 /* DTTableViewCell.h */,
-				0ACF214AB4AE3225EDC116FAAEFE29EA /* DTTableViewCell.m */,
-				5149535A2E1ECF1E80CE60260A23F989 /* DTTableViewController.h */,
-				FF3FD63F66668552B26D68081625CF16 /* DTTableViewController.m */,
-				87C689E2D9EA161ACF0F595C06B72C1B /* DTTableViewControllerEvents.h */,
-				7654FB11C8CEAFBF2B63845401AD9858 /* DTTableViewFactory.h */,
-				23C3F8D79E551527B8AFD4FB8DFB226D /* DTTableViewFactory.m */,
-				B7F9E0521729417D798C6A178D463395 /* DTTableViewManager.h */,
-				4117087639C3F4B15BF1D66CCB3EC461 /* UIView+DTLoading.h */,
-				0C8B143D789C6E4A22922FF589AC2581 /* UIView+DTLoading.m */,
-				ECBE5631A732A554E9D5BD73C50175F4 /* Support Files */,
-			);
-			path = DTTableViewManager;
-			sourceTree = "<group>";
-		};
-		38DFE64B7F4847BF710C3AB535668684 /* All */ = {
-			isa = PBXGroup;
-			children = (
-				B77A827267317E9EC301E57F40B4D4C5 /* DTModelStorage.h */,
-			);
-			name = All;
-			sourceTree = "<group>";
-		};
-		43B0B237CDED28A54A505E0DF053D087 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				9D39BCB5CACAAD9D9A58E97E33BBC3FF /* APAddress.h */,
-				538D658E176E8624CA196530684BCBF8 /* APAddress.m */,
-				6B82270FFD6299785E86654686D9727B /* APAddressBook.h */,
-				75832591B0719B8515F34A1E431BFF34 /* APAddressBook.m */,
-				2B106633F28207B9C577E83C1190F339 /* APContact.h */,
-				3E6985C1A3419BB9FD2A3FF0032D7785 /* APContact.m */,
-				4A3E06CCAB71D11D648C11DA454FA41E /* APPhoneWithLabel.h */,
-				57E0D3A6DB102354B5A0F7652A1AD436 /* APPhoneWithLabel.m */,
-				088BBD3DAF6F9E93930CD4D002E113FE /* APSocialProfile.h */,
-				CC9C0330609915B470A649DAF441489B /* APSocialProfile.m */,
-				86B73C1CE1590D3DD7842EF41B93B266 /* APTypes.h */,
+				EEF3D69931B7DB88F694417E7843E15A /* APAddress.h */,
+				9DD455171EF0997BB561A5056D8DB88B /* APAddress.m */,
+				D669DE501E7C29734EC1003C0508A31F /* APAddressBook.h */,
+				45A8EE31EA7A14CD4C5C3AF66405FCE6 /* APAddressBook.m */,
+				D58827E92868E00B4B93F2415A3E34AA /* APContact.h */,
+				8A121A02DEE521B4E945E40F4266C4DA /* APContact.m */,
+				792D3E907465BD9CA53EC51C0EB633C8 /* APPhoneWithLabel.h */,
+				7604333F87EC7FAB0A2AFA656A25568C /* APPhoneWithLabel.m */,
+				390C7219004D64601CC6DBA8C34A328F /* APSocialProfile.h */,
+				F47AC5B6129A4AE1CA37FD6135B25343 /* APSocialProfile.m */,
+				5FE958F5EBB5C6FA4C604575EC641CB2 /* APTypes.h */,
 			);
 			name = Core;
 			sourceTree = "<group>";
 		};
-		5407F5FDEBFC426432FC924B85767028 /* Support Files */ = {
+		0115827BF00A72A517DFF8CD1BA4FC46 /* APAddressBook */ = {
 			isa = PBXGroup;
 			children = (
-				343992EF58F67B6C11D5A2716F7A272D /* DTModelStorage.xcconfig */,
-				E15AF1779B599FCC39E3D87A46E64410 /* DTModelStorage-Private.xcconfig */,
-				38A5E9020A9D96504D0793DE645066CC /* DTModelStorage-dummy.m */,
-				4A741DB3CC5BCDE879378C38D71A32B3 /* DTModelStorage-prefix.pch */,
+				00755FF621E71EAB382B40A1184ECF00 /* Core */,
+				62B232108A1B2DE545FC0F193BD8D969 /* Support Files */,
+			);
+			path = APAddressBook;
+			sourceTree = "<group>";
+		};
+		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3D1D13E0C6553800746CB8FD61CF946 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		0AF8651F8F0102F6BDAE03228C51870B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0115827BF00A72A517DFF8CD1BA4FC46 /* APAddressBook */,
+				E9D0570E5A5B5E78878BE8FF4C6B009D /* DTModelStorage */,
+				45212E350775E86CA442AE17A298FA33 /* DTTableViewManager */,
+				6B987B4CC9589456A280FEB1AAA65F42 /* THContactPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		20B56609144CE204DFA8221F742B2D76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85378FEF94F1C56F0D39A4A2D3889BD5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EEC7438FE2EA470BAECE32F896A9FE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41501BF6224329ABDC09AC5541C34264 /* DTTableViewManager.xcconfig */,
+				311DE68C60D028D6C4DDD045B688FE72 /* DTTableViewManager-dummy.m */,
+				D1750DFA50BAE55862388AD612DCA3AB /* DTTableViewManager-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/DTModelStorage";
+			path = "../Target Support Files/DTTableViewManager";
+			sourceTree = "<group>";
+		};
+		3B53E314B4E1C527E9E0F0772F815EB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7CF8FE4104399FAE2D349D6335A60AC /* THContactPicker.xcconfig */,
+				BEB5DB48583DADAFE82E0497F4EC6002 /* THContactPicker-dummy.m */,
+				6C97C073B253B6AE40C1B707DD84CB99 /* THContactPicker-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/THContactPicker";
+			sourceTree = "<group>";
+		};
+		45212E350775E86CA442AE17A298FA33 /* DTTableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				FD121DCD6294C7E1A8AD35B0E75C9A2C /* DTMemoryStorage_DTTableViewManagerAdditions.h */,
+				699DB04A7A0EC50551A63BBA7F2E7238 /* DTMemoryStorage_DTTableViewManagerAdditions.m */,
+				5E4205A7CD4DD077610AFB4287EA7A86 /* DTSectionModel+SectionHeadersFooters.h */,
+				F5A5EA750946D497B2DB8DDA8862F58B /* DTSectionModel+SectionHeadersFooters.m */,
+				BA3C27E068B7DC7CD3E256167E7F78D4 /* DTTableViewCell.h */,
+				D3153D301A39727F96141CA5D0F266B2 /* DTTableViewCell.m */,
+				50879B6D764E35DF8B78F354B286C815 /* DTTableViewController.h */,
+				84777C6264C06D493110ADFEB5AA0B76 /* DTTableViewController.m */,
+				959E30A0B648DF58B821E1296D0C93C7 /* DTTableViewControllerEvents.h */,
+				51FD7A6F845A6DD814C005CF924BB354 /* DTTableViewFactory.h */,
+				BA1066A45ABEA780DEBA2167E5C686DC /* DTTableViewFactory.m */,
+				19D54B1396391373583B7C5FF8BCC05C /* DTTableViewManager.h */,
+				05010A244FDDDA623F4500E6AC3F997F /* UIView+DTLoading.h */,
+				C6857E2685863BC55AF4A1104C75F48C /* UIView+DTLoading.m */,
+				2EEC7438FE2EA470BAECE32F896A9FE9 /* Support Files */,
+			);
+			path = DTTableViewManager;
+			sourceTree = "<group>";
+		};
+		456C17C3BCFFDC77BCFA005B9A6358F5 /* All */ = {
+			isa = PBXGroup;
+			children = (
+				DD92A93A8ECD92A7C8E91D22B8B3FD1B /* DTModelStorage.h */,
+			);
+			name = All;
+			sourceTree = "<group>";
+		};
+		62B232108A1B2DE545FC0F193BD8D969 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				982491470913A27FB73C97F5EB434960 /* APAddressBook.xcconfig */,
+				45BE4416DAB3F28992743C211C86ED7F /* APAddressBook-dummy.m */,
+				1657A0CA33198251909A873BF235E1E2 /* APAddressBook-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/APAddressBook";
+			sourceTree = "<group>";
+		};
+		6B987B4CC9589456A280FEB1AAA65F42 /* THContactPicker */ = {
+			isa = PBXGroup;
+			children = (
+				19C0EDC6769C6FC09F73E1F4DC842155 /* THBubbleStyle.h */,
+				E0F5A17A22E52FC6552FB2FE396B1D90 /* THBubbleStyle.m */,
+				2B2C6053D98B47E9E66CF1C23D447E3F /* THContactBubble.h */,
+				3383F1AEF3D2861B06B932D2D2046664 /* THContactBubble.m */,
+				7D95D60E8B35D1F48BC59C8D820B2E61 /* THContactPickerView.h */,
+				B1156297212ACFA853AB0B8BE8B1AA44 /* THContactPickerView.m */,
+				F15517373541BDA3A5899B479638C1DA /* THContactTextField.h */,
+				C68AA79F209AB061C28F9A2B70C960B0 /* THContactTextField.m */,
+				3B53E314B4E1C527E9E0F0772F815EB3 /* Support Files */,
+			);
+			path = THContactPicker;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
-				12762D98667CE0F438AE544DE5E28A0E /* Pods */,
-				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
-				D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */,
+				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
+				0AF8651F8F0102F6BDAE03228C51870B /* Pods */,
+				97E3C1754C74B552CE41C9CDF949E409 /* Products */,
+				037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8A32848C3A4387DF8F6C2B5A8C8535BE /* Core */ = {
+		831620B5C34B51789EF85B19D744691F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				ECAA765D13AE4ABE89004E1B2A434ACE /* DTBaseStorage.h */,
-				303EF30FBEF11047E8040156B7297782 /* DTBaseStorage.m */,
-				70C8683DF54A340EF9F1864024E13F3F /* DTSection.h */,
-				EDD13CED6D9F79434A48033A4D5D4481 /* DTStorageProtocol.h */,
-				623CB1F27EB0BBB955FE9DEFDF92BBA2 /* DTStorageUpdate.h */,
-				57AA6D0FB62B8FD5FF9C5D87C0D968BF /* DTStorageUpdate.m */,
-				51C6F03A3028B0EBB89FC0EE5C16226D /* DTStorageUpdating.h */,
+				464D776896A9C1A069DF24ACC44929B3 /* DTModelStorage.xcconfig */,
+				9B4C3972F9EDDB56340784EAB41746BE /* DTModelStorage-dummy.m */,
+				DEAEBFA4F5BAD2DCF9114F406C3E6CB9 /* DTModelStorage-prefix.pch */,
 			);
-			name = Core;
+			name = "Support Files";
+			path = "../Target Support Files/DTModelStorage";
 			sourceTree = "<group>";
 		};
-		90BA25761D52A28347074A1A03140682 /* MemoryStorage */ = {
+		85378FEF94F1C56F0D39A4A2D3889BD5 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0B4CBEA65FA24DA51F479103AC3A773D /* DTMemoryStorage.h */,
-				F28A9F183B254DB3A16B7A6D5F16D5AC /* DTMemoryStorage.m */,
-				3707E2B94B1CAFDEAE5C0320E5FE46B8 /* DTMemoryStorage+UpdateWithoutAnimations.h */,
-				9C3B9FEC23649157B8907DFEDDB7062C /* DTMemoryStorage+UpdateWithoutAnimations.m */,
-				8B163CEF2FD57F774FE8E07671F4386A /* DTModelTransfer.h */,
-				FEF1EA79F8912D6B3B867EA48617506F /* DTRuntimeHelper.h */,
-				926C90A57991B10637C92288F39DE548 /* DTRuntimeHelper.m */,
-				8B81D882A611145FB4276C5028A400DB /* DTSectionModel.h */,
-				4FB7C91A04444562BBC5F0073A5F7ED1 /* DTSectionModel.m */,
+				A7F7BDCFF7DA1462BE50128F4A7821DA /* AddressBook.framework */,
+				7ACC90C560F33DF35712A2FE1A7B8FF2 /* CoreData.framework */,
+				C57CAC45817D282811165022520DF775 /* CoreGraphics.framework */,
+				2D61FC207C386E9C7B62FFBDAF7445CB /* Foundation.framework */,
+				C0025BC8261F5A9B42735FA7108B6433 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		97E3C1754C74B552CE41C9CDF949E409 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18BC686AC01D808AE3296C34B101C10F /* libAPAddressBook.a */,
+				607FBEE7E5C539B95B07E6B1A54763F2 /* libDTModelStorage.a */,
+				59FF8506A8E7C6BAFC307F6DBE7059E4 /* libDTTableViewManager.a */,
+				14F79A8145996F5300A1F0B6C0581C18 /* libPods.a */,
+				3A9CE2567E291A9EC2A401461532D7DC /* libTHContactPicker.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A643CA8EB6450E8F0C319FB64D34F48D /* MemoryStorage */ = {
+			isa = PBXGroup;
+			children = (
+				56F4AE01186A2B907FA7B39464FD943E /* DTMemoryStorage.h */,
+				3E91EED6426A93EA01BE42D00565989D /* DTMemoryStorage.m */,
+				BC5B21C338073D18286FF3D8B9B8D973 /* DTMemoryStorage+UpdateWithoutAnimations.h */,
+				625380667AFA4E55D8B689B774C2218B /* DTMemoryStorage+UpdateWithoutAnimations.m */,
+				AE6FABD9450F6E78ABCC5CBABAA97755 /* DTModelTransfer.h */,
+				BC752EF29D4D30297D05153A34BE4739 /* DTRuntimeHelper.h */,
+				6EEFF64D8EFD3E8E370C871DD599B3E2 /* DTRuntimeHelper.m */,
+				6C74E3E3CB603ABC8B0498448F822BB9 /* DTSectionModel.h */,
+				AF7E86567F992F73AE114063BA358DE5 /* DTSectionModel.m */,
 			);
 			name = MemoryStorage;
 			sourceTree = "<group>";
 		};
-		952EEBFAF8F7E620423C9F156F25A506 /* Pods */ = {
+		B35CC961C0428B46C8E4DB3B0D53A854 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				15A529C27057E4A57D259CBC6E6CE49C /* Pods-acknowledgements.markdown */,
-				BF59BC15D23E1E1912C8F334E7236813 /* Pods-acknowledgements.plist */,
-				152DC103631BAEED908CE42A44B755D6 /* Pods-dummy.m */,
-				641AE05DD55E5E6AC1590CD7B4A18F97 /* Pods-resources.sh */,
-				36A157B3AD60CA84EAF222ABE1183C12 /* Pods.debug.xcconfig */,
-				777C3F1FADDBA301744617A24FACB993 /* Pods.release.xcconfig */,
+				D57C6D8F684A160A81059DD995D7423B /* DTBaseStorage.h */,
+				F62EE98A3573CE28F83B1F501A8E8BC4 /* DTBaseStorage.m */,
+				570D915B995A6DEE564356A3B11A0939 /* DTSection.h */,
+				1AE241A80D4BC0F50FADC4B57EF47C4F /* DTStorageProtocol.h */,
+				178D52D900E45E58D1B173629BA4E1A3 /* DTStorageUpdate.h */,
+				7FC943710DA90F090AD6852F2455687E /* DTStorageUpdate.m */,
+				D6BA5B3D0053BEB1A29AB8E30E8F37E1 /* DTStorageUpdating.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		B3D1D13E0C6553800746CB8FD61CF946 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37DB56D75062CC75FCB0966E1C6E8A8E /* Pods-acknowledgements.markdown */,
+				10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */,
+				272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */,
+				6911BECA35E7518D864239B7E898EEF3 /* Pods-frameworks.sh */,
+				A1A36D34413696BE466E2CA0AFF194DA /* Pods-resources.sh */,
+				4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */,
+				98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */,
 			);
 			name = Pods;
 			path = "Target Support Files/Pods";
 			sourceTree = "<group>";
 		};
-		ACC5D37DF5CCA6BA2EFC3D9F2B4768D9 /* CoreDataStorage */ = {
+		E48735A1D60C87BE7F4BB67769054A97 /* CoreDataStorage */ = {
 			isa = PBXGroup;
 			children = (
-				45214E29A503064A50CDA01E6F494B2D /* DTCoreDataStorage.h */,
-				9D53CF977A57FF1845F9511253DB4629 /* DTCoreDataStorage.m */,
+				DF44761EABEDFCA4EEBA1250B85867F6 /* DTCoreDataStorage.h */,
+				DBF2F3128624AC2988CFB12E697B7728 /* DTCoreDataStorage.m */,
 			);
 			name = CoreDataStorage;
 			sourceTree = "<group>";
 		};
-		B7BD2250086812CC6F2ED75B99F46BBE /* APAddressBook */ = {
+		E9D0570E5A5B5E78878BE8FF4C6B009D /* DTModelStorage */ = {
 			isa = PBXGroup;
 			children = (
-				43B0B237CDED28A54A505E0DF053D087 /* Core */,
-				FB51EBB3FF3450363D06D2727C969165 /* Support Files */,
-			);
-			path = APAddressBook;
-			sourceTree = "<group>";
-		};
-		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5FB1B155231FD59861179BD191130557 /* libAPAddressBook.a */,
-				572E565759C479DCA72304DC48C4F54F /* libDTModelStorage.a */,
-				BF5309B381466019A85EC9D5300BCD17 /* libDTTableViewManager.a */,
-				C4FF4BCAC2F8D73C1B535601A0932177 /* libPods.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D2411A5FE7F7A004607BED49990C37F4 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				952EEBFAF8F7E620423C9F156F25A506 /* Pods */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		ECBE5631A732A554E9D5BD73C50175F4 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DA0AADDF18E4A87161AB5B8A3120D9EA /* DTTableViewManager.xcconfig */,
-				CDEFA3598C3F270755692F52C38E9C41 /* DTTableViewManager-Private.xcconfig */,
-				067C90622DDFA14E98CB7D0E0D577F84 /* DTTableViewManager-dummy.m */,
-				98151B0E3EA7EF436CD4AA6073765C40 /* DTTableViewManager-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DTTableViewManager";
-			sourceTree = "<group>";
-		};
-		F1004EC075A2649D0792E958021DD29A /* DTModelStorage */ = {
-			isa = PBXGroup;
-			children = (
-				38DFE64B7F4847BF710C3AB535668684 /* All */,
-				8A32848C3A4387DF8F6C2B5A8C8535BE /* Core */,
-				ACC5D37DF5CCA6BA2EFC3D9F2B4768D9 /* CoreDataStorage */,
-				90BA25761D52A28347074A1A03140682 /* MemoryStorage */,
-				5407F5FDEBFC426432FC924B85767028 /* Support Files */,
+				456C17C3BCFFDC77BCFA005B9A6358F5 /* All */,
+				B35CC961C0428B46C8E4DB3B0D53A854 /* Core */,
+				E48735A1D60C87BE7F4BB67769054A97 /* CoreDataStorage */,
+				A643CA8EB6450E8F0C319FB64D34F48D /* MemoryStorage */,
+				831620B5C34B51789EF85B19D744691F /* Support Files */,
 			);
 			path = DTModelStorage;
-			sourceTree = "<group>";
-		};
-		FB51EBB3FF3450363D06D2727C969165 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7209E69751E901B97CF51D3C07E23461 /* APAddressBook.xcconfig */,
-				0704DA4A9D5A9EA1A11B12A8ECDE51C9 /* APAddressBook-Private.xcconfig */,
-				23F93D7511161A19E44D0F644332E194 /* APAddressBook-dummy.m */,
-				0DE95F7AFC20F5B480631FA02C666885 /* APAddressBook-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/APAddressBook";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5FEC486CBDF09332D44DF7DC6BEDDDAF /* Headers */ = {
+		58F95B511D0DC58A1447BD425AF5FC95 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				87CF6BB63184669DB32297B951EC49F2 /* APAddress.h in Headers */,
-				D79A1E3FE39A166D05A9C1D7AD8DE6AE /* APAddressBook.h in Headers */,
-				447F7B26082469A485F895EF0D84F480 /* APContact.h in Headers */,
-				9FFBA41BE00F48C1A45C41972B4F4932 /* APPhoneWithLabel.h in Headers */,
-				32A7EBD5BB4120061111376A815CF673 /* APSocialProfile.h in Headers */,
-				F0E41380972296AE46E075D72545BD26 /* APTypes.h in Headers */,
+				1A5852A9B6511505D95C2F135147414F /* DTBaseStorage.h in Headers */,
+				E5239922764641B0D7E9C3C59290D4C6 /* DTCoreDataStorage.h in Headers */,
+				344CFB14EB087426BFC967A13A43D730 /* DTMemoryStorage+UpdateWithoutAnimations.h in Headers */,
+				3D924A762F49AD7BCE23D78F4B9E5A5A /* DTMemoryStorage.h in Headers */,
+				C3CE955D06BC30E41EF06539C5BD801D /* DTModelStorage.h in Headers */,
+				0BAD40FEB059B2C121FF4EF0C47D074B /* DTModelTransfer.h in Headers */,
+				6C76C2F1686377006D39581A100BCE55 /* DTRuntimeHelper.h in Headers */,
+				F7369A6B5B951F404D8C2E91864BC5FB /* DTSection.h in Headers */,
+				A9260BC5DDC65FF2D6B5EE62DDEA5491 /* DTSectionModel.h in Headers */,
+				2E455EB70F1324ECD175A0F2028A104B /* DTStorageProtocol.h in Headers */,
+				250BCB75953C352C1665FDE2D31B6D6D /* DTStorageUpdate.h in Headers */,
+				AB095F6FE9952F293ED4ECF68481D3B2 /* DTStorageUpdating.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B05936768AA80C1D016183D6485118A7 /* Headers */ = {
+		776641322D9A09C3D3352AC26CCF0582 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EA32090691A81136802382657FC79DF /* DTBaseStorage.h in Headers */,
-				60928A43F3E88F7F717086E1BC005A48 /* DTCoreDataStorage.h in Headers */,
-				C0AD93357B3F087A539F59AB88E41B2E /* DTMemoryStorage+UpdateWithoutAnimations.h in Headers */,
-				A78137E6980B6E8600F9602DBC31802A /* DTMemoryStorage.h in Headers */,
-				109A35B2F2FD68F450364B9A5EFB091B /* DTModelStorage.h in Headers */,
-				2484B887BFAD1C081716936C759504AA /* DTModelTransfer.h in Headers */,
-				C912A196B569966AEC94396537CEE491 /* DTRuntimeHelper.h in Headers */,
-				B334A029AF0CC15B9AE7A2F50AF63485 /* DTSection.h in Headers */,
-				3EFFEEF0C824E17B94F7CD0CCDA84F9F /* DTSectionModel.h in Headers */,
-				9A173E33B26A3FDE6B7CA69B61ACBFF8 /* DTStorageProtocol.h in Headers */,
-				31EEEF5C9F5090D1C70C987EEE10256D /* DTStorageUpdate.h in Headers */,
-				9F09F86CB52C3F271369561F1A6300A8 /* DTStorageUpdating.h in Headers */,
+				2BBCDC21CEADB29B666E1630E1645F68 /* DTMemoryStorage_DTTableViewManagerAdditions.h in Headers */,
+				CB832D8AFE919BD66671332BF503A2DF /* DTSectionModel+SectionHeadersFooters.h in Headers */,
+				BC0173DD5250CF793C607A635D0F23A9 /* DTTableViewCell.h in Headers */,
+				41097FB5A2ACBEAE5BD02EA674116AF2 /* DTTableViewController.h in Headers */,
+				B1E259747404E2F845C680B363A1197F /* DTTableViewControllerEvents.h in Headers */,
+				4EB48421579DFB564EBBA7A4CB729EC7 /* DTTableViewFactory.h in Headers */,
+				5F0CD41F3E70E121093B8B0D662076DA /* DTTableViewManager.h in Headers */,
+				ADAFF4D0AC6B9539BD9DDA2B09A371E2 /* UIView+DTLoading.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F00AB736A26CDA234507EB6CACE91542 /* Headers */ = {
+		9AFD08EAA86B3AED65CB26E4F8B2429C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56F565CDAA1274A35838C07D44F6FD4B /* DTMemoryStorage_DTTableViewManagerAdditions.h in Headers */,
-				E664D18B740D211AA8119B12C4C41E98 /* DTSectionModel+SectionHeadersFooters.h in Headers */,
-				68179B2CA52C2A7148F2E4E976547899 /* DTTableViewCell.h in Headers */,
-				BFE8761558EF1343832EE31A4DADDA84 /* DTTableViewController.h in Headers */,
-				C107B7593B2BCE6267CB21A1F6EF07CC /* DTTableViewControllerEvents.h in Headers */,
-				26265ABED926742E16A22B350D2616E6 /* DTTableViewFactory.h in Headers */,
-				2DEA4E2BBAF90BD86C47142A289585E9 /* DTTableViewManager.h in Headers */,
-				F0422BCFB77151E1347EA8B0BB317095 /* UIView+DTLoading.h in Headers */,
+				3D10A523FF0CAB824E789114FD23105F /* THBubbleStyle.h in Headers */,
+				1E7B9EA7F1B4D22B52040D1F6A8DF320 /* THContactBubble.h in Headers */,
+				E9DB8B4CE516E062AFC77118616DB618 /* THContactPickerView.h in Headers */,
+				910A378F744D1DF31FE99DF6F11828D6 /* THContactTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5E575686E756818C45695B43E9BC245 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A9E985FEB2D9DC8EBD7418181DC43F /* APAddress.h in Headers */,
+				132DF76651F94CFF96D12921417C6E23 /* APAddressBook.h in Headers */,
+				2C13ADB54D0DD68A49131180A3673BC7 /* APContact.h in Headers */,
+				D43155BF1FD7F5FE7C07A5FF0EF674B9 /* APPhoneWithLabel.h in Headers */,
+				BED345B156AFE8C94246FC5454CB86F7 /* APSocialProfile.h in Headers */,
+				D48BFD61CA115E3DB3429AB2DB14665D /* APTypes.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		61C8BA60C9331E46A7DB8F9187332ED9 /* Pods */ = {
+		2336E2C3EF04D879F47AD66F59389CC3 /* DTModelStorage */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC946DB053B5051161C8D127EFB62B5D /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildConfigurationList = A67A98A8E17F5470F76D0A9626C0488E /* Build configuration list for PBXNativeTarget "DTModelStorage" */;
 			buildPhases = (
-				A6C629F4B673D2CBF320D34D08391AB9 /* Sources */,
-				C554CC09CD68A3C35832D7E7FF219212 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BED9C6EC8486FC55A9C537B8D8BDDD06 /* PBXTargetDependency */,
-				A5CA990EC39C6627691C255BF4D7698C /* PBXTargetDependency */,
-				7C378EE0EFB51954BA0A8858A0F920A0 /* PBXTargetDependency */,
-			);
-			name = Pods;
-			productName = Pods;
-			productReference = C4FF4BCAC2F8D73C1B535601A0932177 /* libPods.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		65058ADE339CF5B2E6E3494B5C2177A4 /* APAddressBook */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DF5E96A305DDD3D335CC45BE51C0C545 /* Build configuration list for PBXNativeTarget "APAddressBook" */;
-			buildPhases = (
-				1C33D3A26C3A313A363FC2EE365A4EAC /* Sources */,
-				78B6898FEA91F4A40825FC2A2851AE5E /* Frameworks */,
-				5FEC486CBDF09332D44DF7DC6BEDDDAF /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = APAddressBook;
-			productName = APAddressBook;
-			productReference = 5FB1B155231FD59861179BD191130557 /* libAPAddressBook.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		CF64F3029EBFBD16D5DB663361F45D9E /* DTTableViewManager */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DFCA7E562174BF737BB4142DCB9FFDD4 /* Build configuration list for PBXNativeTarget "DTTableViewManager" */;
-			buildPhases = (
-				98F2C2E4A967BFC2D6FC2FBC69E750F1 /* Sources */,
-				FE3C012C2F0A9EA39433E4F5CD6EA0A1 /* Frameworks */,
-				F00AB736A26CDA234507EB6CACE91542 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9A070B2A69A977BFF3F8B7BC32393C46 /* PBXTargetDependency */,
-			);
-			name = DTTableViewManager;
-			productName = DTTableViewManager;
-			productReference = BF5309B381466019A85EC9D5300BCD17 /* libDTTableViewManager.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		E90216055E3D9D2B44205162457D01B5 /* DTModelStorage */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 91EB6DA29929F5040E93ED55B19AE114 /* Build configuration list for PBXNativeTarget "DTModelStorage" */;
-			buildPhases = (
-				D2C7F181E8AA6352DBC41AA3F0195F1F /* Sources */,
-				F1C564AB6F6578F841CC65700BE2FDC2 /* Frameworks */,
-				B05936768AA80C1D016183D6485118A7 /* Headers */,
+				52F3F59AFF299A7DE82FEDFB3687C3D7 /* Sources */,
+				F785EA8F3697A6F4027CA1B19A3878DB /* Frameworks */,
+				58F95B511D0DC58A1447BD425AF5FC95 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -548,7 +571,79 @@
 			);
 			name = DTModelStorage;
 			productName = DTModelStorage;
-			productReference = 572E565759C479DCA72304DC48C4F54F /* libDTModelStorage.a */;
+			productReference = 607FBEE7E5C539B95B07E6B1A54763F2 /* libDTModelStorage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		69BF9C954B82732CC113C2769C9CC76E /* APAddressBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5BCB4371A04F1E11B0538EAB8AD3412 /* Build configuration list for PBXNativeTarget "APAddressBook" */;
+			buildPhases = (
+				B9F2597BE93757CE378F2020B80035FD /* Sources */,
+				281A390ADE64874F20C8E390B5834D79 /* Frameworks */,
+				E5E575686E756818C45695B43E9BC245 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APAddressBook;
+			productName = APAddressBook;
+			productReference = 18BC686AC01D808AE3296C34B101C10F /* libAPAddressBook.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		888E6B40A0821F5D9594FE26F544832F /* THContactPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0AD02D59F58361E28DE9AC393FF4FC /* Build configuration list for PBXNativeTarget "THContactPicker" */;
+			buildPhases = (
+				83FD5F2DF095335D524695B0A51B48D4 /* Sources */,
+				078D345115FDE7884CC59F586C3BF630 /* Frameworks */,
+				9AFD08EAA86B3AED65CB26E4F8B2429C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = THContactPicker;
+			productName = THContactPicker;
+			productReference = 3A9CE2567E291A9EC2A401461532D7DC /* libTHContactPicker.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DF3BE1AC4791832A85A1123AE8271141 /* DTTableViewManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FAF0B58A288F5478F2F80A87DC1E772 /* Build configuration list for PBXNativeTarget "DTTableViewManager" */;
+			buildPhases = (
+				ED64A8BB588DF623D108AC3029EAE30D /* Sources */,
+				9051B71D2252808E5D459AD23E57020A /* Frameworks */,
+				776641322D9A09C3D3352AC26CCF0582 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F08BE1794837C8F17D399D52E3EFC4B /* PBXTargetDependency */,
+			);
+			name = DTTableViewManager;
+			productName = DTTableViewManager;
+			productReference = 59FF8506A8E7C6BAFC307F6DBE7059E4 /* libDTTableViewManager.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FB633392917FFF710114FBDBB4A3B936 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB6D757A67139AD1A6B866F7416A4EAB /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				FE901315E19C9EAFF47C2F08762FB745 /* Sources */,
+				1B20FB3633D39E7D0C9DA319ADDA7D77 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3021AC1984C8B7D32E28970C62B9B03 /* PBXTargetDependency */,
+				E9CE9BFB5946A9544E379386EB41C706 /* PBXTargetDependency */,
+				317A7BC3220FD70053DAB09C7666BB56 /* PBXTargetDependency */,
+				5481652256501C2898BD212AFA63AEF8 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 14F79A8145996F5300A1F0B6C0581C18 /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -557,7 +652,6 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 			};
@@ -569,95 +663,114 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			productRefGroup = 97E3C1754C74B552CE41C9CDF949E409 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				65058ADE339CF5B2E6E3494B5C2177A4 /* APAddressBook */,
-				E90216055E3D9D2B44205162457D01B5 /* DTModelStorage */,
-				CF64F3029EBFBD16D5DB663361F45D9E /* DTTableViewManager */,
-				61C8BA60C9331E46A7DB8F9187332ED9 /* Pods */,
+				69BF9C954B82732CC113C2769C9CC76E /* APAddressBook */,
+				2336E2C3EF04D879F47AD66F59389CC3 /* DTModelStorage */,
+				DF3BE1AC4791832A85A1123AE8271141 /* DTTableViewManager */,
+				FB633392917FFF710114FBDBB4A3B936 /* Pods */,
+				888E6B40A0821F5D9594FE26F544832F /* THContactPicker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1C33D3A26C3A313A363FC2EE365A4EAC /* Sources */ = {
+		52F3F59AFF299A7DE82FEDFB3687C3D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67DF1E3EDDBAEA90061AECF445B2F42F /* APAddress.m in Sources */,
-				714E2C540359B894375F34947955A82A /* APAddressBook-dummy.m in Sources */,
-				65586476AD1147981B0D2C09B2E0CDE7 /* APAddressBook.m in Sources */,
-				1E35702326A2494923519169D911AADB /* APContact.m in Sources */,
-				F0AC50B97714E1BD0C2A23526311F72F /* APPhoneWithLabel.m in Sources */,
-				9EFE0151DDF885988053411A69AE4320 /* APSocialProfile.m in Sources */,
+				E9517AD561DAB5025A4E0C825D1F7D20 /* DTBaseStorage.m in Sources */,
+				8F1B7553FF8382889200AC57B519C342 /* DTCoreDataStorage.m in Sources */,
+				04ECF487BB47A51467ACE5EB3471A1CC /* DTMemoryStorage+UpdateWithoutAnimations.m in Sources */,
+				6CC6EE0ACA88242F10A43B0F78136241 /* DTMemoryStorage.m in Sources */,
+				02186D06C47D9B9A9E329107343273FD /* DTModelStorage-dummy.m in Sources */,
+				28294DE8FADFEA409407E1875533766E /* DTRuntimeHelper.m in Sources */,
+				701445F946F5D918E9342E3B4D31DA16 /* DTSectionModel.m in Sources */,
+				4FFC755DA3C0A609D826F17E87175137 /* DTStorageUpdate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		98F2C2E4A967BFC2D6FC2FBC69E750F1 /* Sources */ = {
+		83FD5F2DF095335D524695B0A51B48D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7C4069ACD64A56461B90AD853D046D2 /* DTMemoryStorage_DTTableViewManagerAdditions.m in Sources */,
-				B0E269E27BE1572D47C8DCC03BA0DC42 /* DTSectionModel+SectionHeadersFooters.m in Sources */,
-				52D95FBCD59342CF9A4E0ABA11FB0B4A /* DTTableViewCell.m in Sources */,
-				3A1DDF52251A127493A968F3F946C7EC /* DTTableViewController.m in Sources */,
-				FA76D693A211C0B111BCF558D26AC95E /* DTTableViewFactory.m in Sources */,
-				0179CD8F3D4CAF2CCF95C7BB7B35AFE8 /* DTTableViewManager-dummy.m in Sources */,
-				225DE0993130267406E33060A9A7997A /* UIView+DTLoading.m in Sources */,
+				EE9CD7607DA6A20811B622967918FBDB /* THBubbleStyle.m in Sources */,
+				D6F56E4140EA7F0441018ADA9D0AEA75 /* THContactBubble.m in Sources */,
+				8616D3CA810CE898BC8175580A6F9777 /* THContactPicker-dummy.m in Sources */,
+				F82245A4099B277132C4DA678DA86DC7 /* THContactPickerView.m in Sources */,
+				5ECBE5DA7653CC204FBFB89D8833A4B4 /* THContactTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6C629F4B673D2CBF320D34D08391AB9 /* Sources */ = {
+		B9F2597BE93757CE378F2020B80035FD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74CA55EDD270E18509E49085AD3EE1CA /* Pods-dummy.m in Sources */,
+				D625FB86A81D93644DF55F05D8804EDE /* APAddress.m in Sources */,
+				07EB7E6649A00A36986DE29FC4EDE4AF /* APAddressBook-dummy.m in Sources */,
+				4A513376D5836728850906396E6F92E6 /* APAddressBook.m in Sources */,
+				1B92E5790FDFCFFEA87F64F1737B230E /* APContact.m in Sources */,
+				9297ECB241D2D098A406D9C1D17845C5 /* APPhoneWithLabel.m in Sources */,
+				30284E6D016C9A63D3F4E1D6C71ABAFC /* APSocialProfile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2C7F181E8AA6352DBC41AA3F0195F1F /* Sources */ = {
+		ED64A8BB588DF623D108AC3029EAE30D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				127D1FC4C9EF926F3F5B025067F46DAA /* DTBaseStorage.m in Sources */,
-				EA5B56A4B7C99342DA1E71D6A7392212 /* DTCoreDataStorage.m in Sources */,
-				92C3722BF590905DD619079CA569CF3A /* DTMemoryStorage+UpdateWithoutAnimations.m in Sources */,
-				8901446C2AF1D0056EA4735879D0F1E7 /* DTMemoryStorage.m in Sources */,
-				516E2056AE96E8F41165817619397A72 /* DTModelStorage-dummy.m in Sources */,
-				FE0BA3C983A4368D9CB32A51F4137AC2 /* DTRuntimeHelper.m in Sources */,
-				C11B892DEFD9AC0B463DE6F7EF32F55B /* DTSectionModel.m in Sources */,
-				33B4C6599C41CE4940B5CEC032554091 /* DTStorageUpdate.m in Sources */,
+				3BBF0B45E459C9043C19E1D5E8A964DB /* DTMemoryStorage_DTTableViewManagerAdditions.m in Sources */,
+				DC08839CF0049D600FEF49C5AAF4F2A8 /* DTSectionModel+SectionHeadersFooters.m in Sources */,
+				4C572822805BF7B0F311CD6688F2477A /* DTTableViewCell.m in Sources */,
+				CB333C53278397F3959A546BCB8AB55C /* DTTableViewController.m in Sources */,
+				F6D98319654563DDBE1B42BBBA07A269 /* DTTableViewFactory.m in Sources */,
+				2D8DD3D5AA494FB892697CAC96F1AA3E /* DTTableViewManager-dummy.m in Sources */,
+				294A49443EC34D3B844630081033C4BD /* UIView+DTLoading.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE901315E19C9EAFF47C2F08762FB745 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AF088270885BCC233C6AFD7C7D1BDB8 /* Pods-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7C378EE0EFB51954BA0A8858A0F920A0 /* PBXTargetDependency */ = {
+		317A7BC3220FD70053DAB09C7666BB56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DTTableViewManager;
-			target = CF64F3029EBFBD16D5DB663361F45D9E /* DTTableViewManager */;
-			targetProxy = 310F60F7E7B268AAA7E1D48A6684D746 /* PBXContainerItemProxy */;
+			target = DF3BE1AC4791832A85A1123AE8271141 /* DTTableViewManager */;
+			targetProxy = D3A29F935288B6C1EA3FBC70E158DA51 /* PBXContainerItemProxy */;
 		};
-		9A070B2A69A977BFF3F8B7BC32393C46 /* PBXTargetDependency */ = {
+		4F08BE1794837C8F17D399D52E3EFC4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DTModelStorage;
-			target = E90216055E3D9D2B44205162457D01B5 /* DTModelStorage */;
-			targetProxy = 9B2853DEE7F37EA202AC2474AA9DDBAA /* PBXContainerItemProxy */;
+			target = 2336E2C3EF04D879F47AD66F59389CC3 /* DTModelStorage */;
+			targetProxy = BE7931CE26F73F28662FBDD8926D1367 /* PBXContainerItemProxy */;
 		};
-		A5CA990EC39C6627691C255BF4D7698C /* PBXTargetDependency */ = {
+		5481652256501C2898BD212AFA63AEF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = DTModelStorage;
-			target = E90216055E3D9D2B44205162457D01B5 /* DTModelStorage */;
-			targetProxy = 1D463985E27EFDD4FF1BB47234CA5D7D /* PBXContainerItemProxy */;
+			name = THContactPicker;
+			target = 888E6B40A0821F5D9594FE26F544832F /* THContactPicker */;
+			targetProxy = 91DDA5EA4A2D3ED56958443E2DB268EC /* PBXContainerItemProxy */;
 		};
-		BED9C6EC8486FC55A9C537B8D8BDDD06 /* PBXTargetDependency */ = {
+		B3021AC1984C8B7D32E28970C62B9B03 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = APAddressBook;
-			target = 65058ADE339CF5B2E6E3494B5C2177A4 /* APAddressBook */;
-			targetProxy = 7DADDC362E1AC2CD350A4EB6B2C9F4CB /* PBXContainerItemProxy */;
+			target = 69BF9C954B82732CC113C2769C9CC76E /* APAddressBook */;
+			targetProxy = 69EC17751B25A2C89AFD2DD1365D51B0 /* PBXContainerItemProxy */;
+		};
+		E9CE9BFB5946A9544E379386EB41C706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTModelStorage;
+			target = 2336E2C3EF04D879F47AD66F59389CC3 /* DTModelStorage */;
+			targetProxy = 689EF652D67FAE128C2795E20BD46460 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -696,28 +809,31 @@
 			};
 			name = Release;
 		};
-		1E33F4A13BF63B306CB37CB8341E7004 /* Release */ = {
+		10A31A275D7D55AF8493E88B509945CF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E15AF1779B599FCC39E3D87A46E64410 /* DTModelStorage-Private.xcconfig */;
+			baseConfigurationReference = 982491470913A27FB73C97F5EB434960 /* APAddressBook.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DTModelStorage/DTModelStorage-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/APAddressBook/APAddressBook-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
-		285D7DD7E69F24637092E8AB4CCCBE81 /* Release */ = {
+		1FC36F09688308DAC5D269AE99B1D3D5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 777C3F1FADDBA301744617A24FACB993 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 98C98CDFB3F20F2925F6CD1F141BB14F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -728,25 +844,27 @@
 			};
 			name = Release;
 		};
-		406B0666265D30FF55E8AC88F77BE302 /* Debug */ = {
+		3E6F4A6516F60D7A523E84D54D76D6DE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0704DA4A9D5A9EA1A11B12A8ECDE51C9 /* APAddressBook-Private.xcconfig */;
+			baseConfigurationReference = 41501BF6224329ABDC09AC5541C34264 /* DTTableViewManager.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/APAddressBook/APAddressBook-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/DTTableViewManager/DTTableViewManager-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		42D7E5F30B80005B6892E64E7B2B452B /* Release */ = {
+		73EFB12CCB47F2F98A49EB53CC55C731 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0704DA4A9D5A9EA1A11B12A8ECDE51C9 /* APAddressBook-Private.xcconfig */;
+			baseConfigurationReference = 982491470913A27FB73C97F5EB434960 /* APAddressBook.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/APAddressBook/APAddressBook-prefix.pch";
@@ -754,15 +872,17 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		4A75A38FFBB17E47E1849CFDA89D09A1 /* Debug */ = {
+		758146DA2401A60C94CEA289401D7F7F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E15AF1779B599FCC39E3D87A46E64410 /* DTModelStorage-Private.xcconfig */;
+			baseConfigurationReference = 464D776896A9C1A069DF24ACC44929B3 /* DTModelStorage.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/DTModelStorage/DTModelStorage-prefix.pch";
@@ -770,50 +890,21 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		5220FFE7B5442094241BEF12EF1DDE3C /* Release */ = {
+		7A6EE5DEF925D7379DDE0A65317DC308 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDEFA3598C3F270755692F52C38E9C41 /* DTTableViewManager-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DTTableViewManager/DTTableViewManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		588C1CA684A812017E9256E12A10B75D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDEFA3598C3F270755692F52C38E9C41 /* DTTableViewManager-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/DTTableViewManager/DTTableViewManager-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		9488546C033F6610C47BE700102E3370 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 36A157B3AD60CA84EAF222ABE1183C12 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 4E762F23EC34ED4A6FF3312D84E33A40 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -863,6 +954,78 @@
 			};
 			name = Debug;
 		};
+		C66ECB39BC49E54C0709190FED3ECB44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 464D776896A9C1A069DF24ACC44929B3 /* DTModelStorage.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DTModelStorage/DTModelStorage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D154689B11C21637A59CB760BF89B71F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7CF8FE4104399FAE2D349D6335A60AC /* THContactPicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/THContactPicker/THContactPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EDBAC3ABA3C34CD38FE9D0FCDC43CF63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41501BF6224329ABDC09AC5541C34264 /* DTTableViewManager.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DTTableViewManager/DTTableViewManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		FB19020DB0CA0ADA6E0789A6F4E8B920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7CF8FE4104399FAE2D349D6335A60AC /* THContactPicker.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/THContactPicker/THContactPicker-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -875,38 +1038,47 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91EB6DA29929F5040E93ED55B19AE114 /* Build configuration list for PBXNativeTarget "DTModelStorage" */ = {
+		3FAF0B58A288F5478F2F80A87DC1E772 /* Build configuration list for PBXNativeTarget "DTTableViewManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A75A38FFBB17E47E1849CFDA89D09A1 /* Debug */,
-				1E33F4A13BF63B306CB37CB8341E7004 /* Release */,
+				3E6F4A6516F60D7A523E84D54D76D6DE /* Debug */,
+				EDBAC3ABA3C34CD38FE9D0FCDC43CF63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC946DB053B5051161C8D127EFB62B5D /* Build configuration list for PBXNativeTarget "Pods" */ = {
+		A5BCB4371A04F1E11B0538EAB8AD3412 /* Build configuration list for PBXNativeTarget "APAddressBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9488546C033F6610C47BE700102E3370 /* Debug */,
-				285D7DD7E69F24637092E8AB4CCCBE81 /* Release */,
+				10A31A275D7D55AF8493E88B509945CF /* Debug */,
+				73EFB12CCB47F2F98A49EB53CC55C731 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DF5E96A305DDD3D335CC45BE51C0C545 /* Build configuration list for PBXNativeTarget "APAddressBook" */ = {
+		A67A98A8E17F5470F76D0A9626C0488E /* Build configuration list for PBXNativeTarget "DTModelStorage" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				406B0666265D30FF55E8AC88F77BE302 /* Debug */,
-				42D7E5F30B80005B6892E64E7B2B452B /* Release */,
+				758146DA2401A60C94CEA289401D7F7F /* Debug */,
+				C66ECB39BC49E54C0709190FED3ECB44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DFCA7E562174BF737BB4142DCB9FFDD4 /* Build configuration list for PBXNativeTarget "DTTableViewManager" */ = {
+		AE0AD02D59F58361E28DE9AC393FF4FC /* Build configuration list for PBXNativeTarget "THContactPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				588C1CA684A812017E9256E12A10B75D /* Debug */,
-				5220FFE7B5442094241BEF12EF1DDE3C /* Release */,
+				FB19020DB0CA0ADA6E0789A6F4E8B920 /* Debug */,
+				D154689B11C21637A59CB760BF89B71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB6D757A67139AD1A6B866F7416A4EAB /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A6EE5DEF925D7379DDE0A65317DC308 /* Debug */,
+				1FC36F09688308DAC5D269AE99B1D3D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
