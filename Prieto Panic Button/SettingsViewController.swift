@@ -7,12 +7,18 @@
 //
 
 import UIKit
+import AddressBook
+import AddressBookUI
 
 protocol SettingsViewControllerDelegate{
     func giveEverythingBack(yNumbers: [String], yNames: [String], yMessage: String, oNumbers: [String], oNames: [String], oMessage: String, rNumbers: [String], rNames: [String], rMessage: String)
 }
 
-class SettingsViewController: UIViewController, AddItemViewControllerDelegate {
+class SettingsViewController: UIViewController, AddItemViewControllerDelegate, ABPeoplePickerNavigationControllerDelegate {
+    
+    @IBOutlet weak var textField: UITextView!
+    var textFieldData: [String] = []
+    var phoneNumbers: [String] = []
     
     @IBOutlet weak var codeSelector: UISegmentedControl!
     
@@ -48,22 +54,34 @@ class SettingsViewController: UIViewController, AddItemViewControllerDelegate {
         case 0:
             //Yellow
             textView.text = yellowMessage
+            textField.text = yellowRecipients
             if(textView.text.isEmpty){
                 textView.text = "Enter Message Text Here."
+            }
+            if(textField.text.isEmpty){
+                textField.text = "Add recipients by clicking the add button to the right."
             }
             break
         case 1:
             //Orange
             textView.text = orangeMessage
+            textField.text = orangeRecipients
             if(textView.text.isEmpty){
                 textView.text = "Enter Message Text Here."
+            }
+            if(textField.text.isEmpty){
+                textField.text = "Add recipients by clicking the add button to the right."
             }
             break
         case 2:
             //Red
             textView.text = redMessage
+            textField.text = redRecipients
             if(textView.text.isEmpty){
                 textView.text = "Enter Message Text Here."
+            }
+            if(textField.text.isEmpty){
+                textField.text = "Add recipients by clicking the add button to the right."
             }
             break
         default:
@@ -78,14 +96,17 @@ class SettingsViewController: UIViewController, AddItemViewControllerDelegate {
     var yellowNames: [String] = []
     var yellowNumbers: [String] = []
     var yellowMessage: String = "Enter Message Text Here."
+    var yellowRecipients: String = "Add recipients by clicking the add button to the right."
     
     var orangeNames: [String] = []
     var orangeNumbers: [String] = []
     var orangeMessage: String = "Enter Message Text Here."
+    var orangeRecipients: String = "Add recipients by clicking the add button to the right."
     
     var redNames: [String] = []
     var redNumbers: [String] = []
     var redMessage: String = "Enter Message Text Here."
+    var redRecipients: String = "Add recipients by clicking the add button to the right."
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -93,22 +114,34 @@ class SettingsViewController: UIViewController, AddItemViewControllerDelegate {
         case 0:
             //Yellow
             textView.text = yellowMessage
+            textField.text = yellowRecipients
             if(textView.text.isEmpty){
                 textView.text = "Enter Message Text Here."
+            }
+            if(textField.text.isEmpty){
+                textField.text = "Add recipients by clicking the add button to the right."
             }
             break
         case 1:
             //Orange
             textView.text = orangeMessage
+            textField.text = orangeRecipients
             if(textView.text.isEmpty){
                 textView.text = "Enter Message Text Here."
+            }
+            if(textField.text.isEmpty){
+                textField.text = "Add recipients by clicking the add button to the right."
             }
             break
         case 2:
             //Red
             textView.text = redMessage
+            textField.text = redRecipients
             if(textView.text.isEmpty){
                 textView.text = "Enter Message Text Here."
+            }
+            if(textField.text.isEmpty){
+                textField.text = "Add recipients by clicking the add button to the right."
             }
             break
         default:
@@ -156,7 +189,6 @@ class SettingsViewController: UIViewController, AddItemViewControllerDelegate {
         default:
             break
         }
-        //self.names = contacts
     }
     
     override func didReceiveMemoryWarning() {
@@ -164,6 +196,10 @@ class SettingsViewController: UIViewController, AddItemViewControllerDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func addContact(sender: UIButton) {
+        let item = UIBarButtonItem()
+        doPeoplePicker(item);
+    }
     @IBAction func goBack(sender: UIBarButtonItem) {
         
         if let delegate = self.delegate {
@@ -200,6 +236,140 @@ class SettingsViewController: UIViewController, AddItemViewControllerDelegate {
                 viewController.delegate = self
             }
         }
+    }
+    
+    // MARK: - People Picker View Controller
+    @IBAction func doPeoplePicker(sender: UIBarButtonItem) {
+        
+        let picker = ABPeoplePickerNavigationController()
+        picker.peoplePickerDelegate = self
+        picker.displayedProperties = [Int(kABPersonPhoneProperty)]
+        // new iOS 8 features: instead of delegate "continueAfter" methods
+        // picker.predicateForEnablingPerson = NSPredicate(format: "%K like %@", ABPersonFamilyNameProperty, "Neuburg")
+        picker.predicateForSelectionOfPerson = NSPredicate(value:false) // display additional info for all persons
+        picker.predicateForSelectionOfProperty = NSPredicate(value:true) // call delegate method for all properties
+        self.presentViewController(picker, animated:true, completion:nil)
+        
+    }
+    
+    func peoplePickerNavigationController(peoplePicker: ABPeoplePickerNavigationController, didSelectPerson person: ABRecord) {
+        
+    }
+
+    @IBAction func clearAll(sender: UIButton) {
+        if(textField.text == "Add recipients by clicking the add button to the right."){
+            return
+        }
+        textField.text = ""
+        switch(codeSelector.selectedSegmentIndex){
+        case 0:
+            //Yellow
+            yellowMessage = textView.text
+            yellowRecipients = textField.text
+            break
+        case 1:
+            //Orange
+            orangeMessage = textView.text
+            orangeRecipients = textField.text
+            break
+        case 2:
+            //Red
+            redMessage = textView.text
+            redRecipients = textField.text
+            break
+        default:
+            break
+            
+        }
+    }
+    
+    
+    @IBAction func saveData(sender: UIButton) {
+        switch(codeSelector.selectedSegmentIndex){
+        case 0:
+            //Yellow
+            yellowMessage = textView.text
+            yellowRecipients = textField.text
+            break
+        case 1:
+            //Orange
+            orangeMessage = textView.text
+            orangeRecipients = textField.text
+            break
+        case 2:
+            //Red
+            redMessage = textView.text
+            redRecipients = textField.text
+            break
+        default:
+            break
+            
+        }
+    }
+    
+    func peoplePickerNavigationController(peoplePicker: ABPeoplePickerNavigationController,
+        didSelectPerson person: ABRecordRef,
+        property: ABPropertyID,
+        identifier: ABMultiValueIdentifier) {
+            
+            if property != kABPersonPhoneProperty {
+                print("WTF") // shouldn't happen
+                return
+            }
+            let phoneNums:ABMultiValueRef = ABRecordCopyValue(person, property).takeRetainedValue()
+            let ix = ABMultiValueGetIndexForIdentifier(phoneNums, identifier)
+            let phone = ABMultiValueCopyValueAtIndex(phoneNums, ix).takeRetainedValue() as! String
+            
+            var personName = ABRecordCopyValue(person, kABPersonFirstNameProperty)
+            let firstName: ABRecordRef = Unmanaged.fromOpaque(personName.toOpaque()).takeUnretainedValue() as NSString as ABRecordRef
+            
+            personName = ABRecordCopyValue(person, kABPersonLastNameProperty)
+            let lastName: ABRecordRef = Unmanaged.fromOpaque(personName.toOpaque()).takeUnretainedValue() as NSString as ABRecordRef
+            
+            let fullName = (firstName as! String) + " " + (lastName as! String)
+            
+            // do something with the email here
+            var bFound: Bool = false
+            for value: String in (textFieldData){
+                if(value == fullName){ //ALSO CHECK TO SEE IF PHONE NUMBER EXISTS... HANDLE THAT CASE AS WELL
+                    bFound = true
+                    break
+                }
+            }
+            
+            if(!bFound){
+                textFieldData.append(fullName)
+                phoneNumbers.append(phone)
+                //for value: String in (textFieldData){
+                if(textField.text == "Add recipients by clicking the add button to the right."){
+                    textField.text = fullName
+                }else{
+                    textField.text = textField.text + "\n" + fullName
+                }
+
+            }
+            
+            switch(codeSelector.selectedSegmentIndex){
+            case 0:
+                //Yellow
+                yellowMessage = textView.text
+                yellowRecipients = textField.text
+                break
+            case 1:
+                //Orange
+                orangeMessage = textView.text
+                orangeRecipients = textField.text
+                break
+            case 2:
+                //Red
+                redMessage = textView.text
+                redRecipients = textField.text
+                break
+            default:
+                break
+                
+            }
+            
     }
     
 }
