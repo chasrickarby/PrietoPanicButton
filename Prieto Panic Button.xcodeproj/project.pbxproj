@@ -10,7 +10,6 @@
 		1002C53B1B573865003E5519 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002C53A1B573865003E5519 /* ContentViewController.swift */; };
 		1002C53D1B585C1B003E5519 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002C53C1B585C1B003E5519 /* SettingsViewController.swift */; };
 		10744C1F1B69AF2C002299DC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10744C1E1B69AF2C002299DC /* TableViewCell.swift */; };
-		10744C571B7AA1DE002299DC /* RecipientsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10744C561B7AA1DE002299DC /* RecipientsTableTableViewController.swift */; };
 		10AEC7ED1B567832000E09D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AEC7EC1B567832000E09D8 /* AppDelegate.swift */; };
 		10AEC7EF1B567832000E09D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10AEC7EE1B567832000E09D8 /* ViewController.swift */; };
 		10AEC7F21B567832000E09D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10AEC7F01B567832000E09D8 /* Main.storyboard */; };
@@ -36,7 +35,6 @@
 		1002C53A1B573865003E5519 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		1002C53C1B585C1B003E5519 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		10744C1E1B69AF2C002299DC /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		10744C561B7AA1DE002299DC /* RecipientsTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipientsTableTableViewController.swift; sourceTree = "<group>"; };
 		10AEC7E71B567832000E09D8 /* Prieto Panic Button.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Prieto Panic Button.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		10AEC7EB1B567832000E09D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10AEC7EC1B567832000E09D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -97,7 +95,6 @@
 				10AEC7EE1B567832000E09D8 /* ViewController.swift */,
 				1002C53C1B585C1B003E5519 /* SettingsViewController.swift */,
 				10AEC7F01B567832000E09D8 /* Main.storyboard */,
-				10744C561B7AA1DE002299DC /* RecipientsTableTableViewController.swift */,
 				1002C53A1B573865003E5519 /* ContentViewController.swift */,
 				10AEC7EA1B567832000E09D8 /* Supporting Files */,
 				10CF1A731B6976980011107A /* ContactsViewController.swift */,
@@ -308,7 +305,6 @@
 				1002C53B1B573865003E5519 /* ContentViewController.swift in Sources */,
 				10AEC7ED1B567832000E09D8 /* AppDelegate.swift in Sources */,
 				10744C1F1B69AF2C002299DC /* TableViewCell.swift in Sources */,
-				10744C571B7AA1DE002299DC /* RecipientsTableTableViewController.swift in Sources */,
 				1002C53D1B585C1B003E5519 /* SettingsViewController.swift in Sources */,
 				10CF1A741B6976980011107A /* ContactsViewController.swift in Sources */,
 			);

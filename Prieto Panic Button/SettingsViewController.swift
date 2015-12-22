@@ -14,7 +14,7 @@ protocol SettingsViewControllerDelegate{
     func giveEverythingBack(yNumbers: [String], yNames: [String], yMessage: String, oNumbers: [String], oNames: [String], oMessage: String, rNumbers: [String], rNames: [String], rMessage: String)
 }
 
-class SettingsViewController: UIViewController, AddItemViewControllerDelegate, ABPeoplePickerNavigationControllerDelegate {
+class SettingsViewController: UIViewController, ABPeoplePickerNavigationControllerDelegate {
     
     @IBOutlet weak var textField: UITextView!
     var textFieldData: [String] = []
@@ -152,7 +152,7 @@ class SettingsViewController: UIViewController, AddItemViewControllerDelegate, A
         // Do any additional setup after loading the view.
     }
     
-    func controller_numbers(controller: RecipientsTableTableViewController, numbers: [String]) {
+    func controller_numbers(numbers: [String]) {
         switch(codeSelector.selectedSegmentIndex){
         case 0:
             //Yellow
@@ -172,7 +172,7 @@ class SettingsViewController: UIViewController, AddItemViewControllerDelegate, A
         //self.numbers = numbers
     }
     
-    func controller_names(controller: RecipientsTableTableViewController, contacts: [String]) {
+    func controller_names(contacts: [String]) {
         switch(codeSelector.selectedSegmentIndex){
         case 0:
             //Yellow
@@ -213,34 +213,6 @@ class SettingsViewController: UIViewController, AddItemViewControllerDelegate, A
 
     }
 
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if segue.identifier == "RecipientsTableVC" {
-            let navigationController = segue.destinationViewController as? UINavigationController
-            let addItemViewController = navigationController?.topViewController as? RecipientsTableTableViewController
-            
-            switch(codeSelector.selectedSegmentIndex){
-            case 0:
-                addItemViewController?.tableData = yellowNames
-                addItemViewController?.phoneNumbers = yellowNumbers
-                break
-            case 1:
-                addItemViewController?.tableData = orangeNames
-                addItemViewController?.phoneNumbers = orangeNumbers
-                break
-            case 2:
-                addItemViewController?.tableData = redNames
-                addItemViewController?.phoneNumbers = redNumbers
-                break
-            default:
-                break
-            }
-            
-            if let viewController = addItemViewController {
-                viewController.delegate = self
-            }
-        }
-    }
-    
     // MARK: - People Picker View Controller
     @IBAction func doPeoplePicker(sender: UIBarButtonItem) {
         
@@ -264,6 +236,7 @@ class SettingsViewController: UIViewController, AddItemViewControllerDelegate, A
             return
         }
         textField.text = "Add recipients by clicking the add button to the right."
+        textFieldData = [""];
         switch(codeSelector.selectedSegmentIndex){
         case 0:
             //Yellow
@@ -336,6 +309,7 @@ class SettingsViewController: UIViewController, AddItemViewControllerDelegate, A
             for value: String in (textFieldData){
                 if(value == fullName){ //ALSO CHECK TO SEE IF PHONE NUMBER EXISTS... HANDLE THAT CASE AS WELL
                     bFound = true
+                    print("FOUND: NAME")
                     break
                 }
             }
