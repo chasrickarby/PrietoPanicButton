@@ -81,7 +81,7 @@ class RecipientsTableTableViewController: UITableViewController, ABPeoplePickerN
     }
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("tableCell", forIndexPath: indexPath) 
+        let cell = tableView.dequeueReusableCellWithIdentifier("tableCell", forIndexPath: indexPath)
         
         // Configure the cell...
         cell.textLabel?.text = tableData[indexPath.row]
@@ -186,7 +186,7 @@ class RecipientsTableTableViewController: UITableViewController, ABPeoplePickerN
             
             // self.dismissViewControllerAnimated(true, completion: nil)
     }
-
+    
     /*
     // MARK: - Navigation
     

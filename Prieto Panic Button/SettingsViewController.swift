@@ -199,6 +199,9 @@ class SettingsViewController: UIViewController, AddItemViewControllerDelegate, A
     @IBAction func addContact(sender: UIButton) {
         let item = UIBarButtonItem()
         doPeoplePicker(item);
+        print(yellowRecipients)
+        print(orangeRecipients)
+        print(redRecipients)
     }
     @IBAction func goBack(sender: UIBarButtonItem) {
         
@@ -260,7 +263,7 @@ class SettingsViewController: UIViewController, AddItemViewControllerDelegate, A
         if(textField.text == "Add recipients by clicking the add button to the right."){
             return
         }
-        textField.text = ""
+        textField.text = "Add recipients by clicking the add button to the right."
         switch(codeSelector.selectedSegmentIndex){
         case 0:
             //Yellow
